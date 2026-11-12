@@ -1,0 +1,9 @@
+portfolio
+personal-website
+static-site
+bilingual
+html
+css
+javascript
+vercel
+no-framework

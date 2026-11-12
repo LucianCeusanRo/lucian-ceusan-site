@@ -1,0 +1,50 @@
+# Lucian-Ciprian Ceușan
+
+> IT & Telecom Support | Network & Radio Communications | Cybersecurity | Python & Node.js Automation. Based in Bucharest, Romania – open to remote or hybrid (IT Support, NOC, Telecom Support, Junior SOC, Junior Developer).
+
+## Contact
+- Email: ceusan.ciprian@gmail.com
+- LinkedIn: https://www.linkedin.com/in/lucian-ceusan-7a9179210
+- GitHub: https://github.com/LucianCeusanRo (rootfold, ccna-packet-tracer-labs, sts-grila, ecom-radar, lspilot, moodle-kb, betting-tips-dashboard, lucian-ceusan-site)
+- CV (PDF, EN): https://lucian-ceusan.vercel.app/Lucian_Ceusan_CV.pdf
+- CV (PDF, RO): https://lucian-ceusan.vercel.app/Lucian_Ceusan_CV_RO.pdf
+
+## Quick facts
+- Work mode: based in Bucharest, Romania – open to remote or hybrid
+- Work authorization: EU citizen, no sponsorship needed
+- Notice period: 30 days
+- Languages: English (advanced), Romanian (native)
+
+## Experience
+- Communications Specialist, Romanian state institution (Aug 2025 – present): radio relay and Ceragon microwave links, mobile communications centres, digital switches.
+- E-commerce Specialist, produsele.com (Mar 2025 – present).
+
+## Education
+- Universitatea „Dimitrie Cantemir” Târgu Mureș — Economics of Commerce, Tourism & Services (2023–2026)
+- Military NCO School for Communications, IT and Cyber Defence, Sibiu — Telecommunications Electronics Technician, EQF level 5, final grade 8.43/10 (2024–2025)
+- UMF Târgu Mureș — Computer Science (2022–2023)
+
+## Achievements
+- Top individual score, CyberMan 2025
+- Cisco Networking Academy certifications
+- English: advanced
+
+## Projects
+- [STS Grilă](https://sts-grila-ceusan3.netlify.app/): telecom training app with a 3D networking lab (VLAN, SSH, DHCP, Cisco CLI), PWA
+- [Speech-therapy practice website](https://catalinasova.netlify.app/): client project with bookings, admin login, reminder emails, PWA
+- [LSPilot AI](https://github.com/LucianCeusanRo/lspilot): AI study assistant (browser extension + Electron), Cloudflare Workers, Stripe
+- Ecom Radar: product research automation (Python, Playwright, Ollama, FastAPI, Shopify Admin API)
+- Sports analytics platform (Python)
+- Price & listing monitor (Python, Playwright, PowerShell, Task Scheduler)
+
+## Home lab
+- Cisco switch/router practice (VLAN, trunk, SSH, DHCP) in the STS Grilă 3D lab
+- Tailscale remote access
+- Sunshine/Moonlight streaming over Tailscale
+- DNS ad-blocking
+- Windows & Linux administration (PowerShell, Task Scheduler, SSH)
+
+## Skills
+Networking: TCP/IP, DNS, DHCP, VPN, VLAN, LACP, firewalls, subnetting, fiber optics, structured cabling, SSH, PuTTY
+Systems: Windows, Linux, Active Directory, Microsoft 365, PowerShell
+Development: Python, C++, JavaScript/Node.js, SQL, HTML/CSS, REST, Playwright, FastAPI, Electron, Docker, Cloudflare, Vercel, Netlify, Git

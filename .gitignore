@@ -1,0 +1,6 @@
+# CV PDFs are added at deploy time, not stored in the repo
+Lucian_Ceusan_CV*.pdf
+*.pdf
+.vercel/
+.DS_Store
+node_modules/

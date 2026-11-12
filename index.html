@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lucian Ceușan — IT &amp; Telecom Support, Network Engineering, Python Automation</title>
+<meta name="description" content="Lucian-Ciprian Ceușan — IT &amp; Telecom Support specialist. Based in Bucharest, Romania – open to remote or hybrid. Networking (TCP/IP, VLAN, DHCP, VPN), radio relay &amp; microwave links, cybersecurity, Python and Node.js automation.">
+<meta name="keywords" content="IT Support, Telecom Support, NOC, Network Engineer, Junior SOC, Helpdesk, System Administrator, TCP/IP, VLAN, DHCP, DNS, VPN, Cisco, Ceragon, microwave radio, Python, Node.js, remote">
+<meta name="author" content="Lucian-Ciprian Ceușan">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://lucian-ceusan.vercel.app/">
+<meta name="theme-color" content="#0a0b0d">
+<link rel="alternate" hreflang="en" href="https://lucian-ceusan.vercel.app/">
+<link rel="alternate" hreflang="ro" href="https://lucian-ceusan.vercel.app/?lang=ro">
+<link rel="alternate" hreflang="x-default" href="https://lucian-ceusan.vercel.app/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Lucian Ceușan — IT &amp; Telecom Support | Network &amp; Python Automation">
+<meta property="og:description" content="Based in Bucharest, Romania – open to remote or hybrid. Networking, radio communications, cybersecurity and automation. Projects, experience and CV.">
+<meta property="og:url" content="https://lucian-ceusan.vercel.app/">
+<meta property="og:image" content="https://lucian-ceusan.vercel.app/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="profile:first_name" content="Lucian"><meta property="profile:last_name" content="Ceușan">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lucian Ceușan — IT &amp; Telecom Support">
+<meta name="twitter:description" content="Networking, radio communications, cybersecurity and Python/Node.js automation. Open to remote or hybrid roles in Bucharest.">
+<meta name="twitter:image" content="https://lucian-ceusan.vercel.app/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Lucian-Ciprian Ceușan","alternateName":"Lucian Ceușan","jobTitle":"IT & Telecom Support Specialist","description":"IT & Telecom Support | Network & Radio Communications | Cybersecurity | Python & Node.js Automation","email":"mailto:ceusan.ciprian@gmail.com","url":"https://lucian-ceusan.vercel.app/","contactPoint":{"@type":"ContactPoint","contactType":"professional inquiries","availableLanguage":["Romanian","English"]},"address":{"@type":"PostalAddress","addressLocality":"București","addressRegion":"București","addressCountry":"RO"},"sameAs":["https://www.linkedin.com/in/lucian-ceusan-7a9179210","https://github.com/LucianCeusanRo"],"knowsLanguage":["ro","en"],"alumniOf":[{"@type":"CollegeOrUniversity","name":"Universitatea Dimitrie Cantemir Târgu Mureș"},{"@type":"EducationalOrganization","name":"Military School for NCOs in Communications, IT and Cyber Defence, Sibiu"}],"knowsAbout":["TCP/IP","DNS","DHCP","VPN","VLAN","LACP","Firewalls","Subnetting","Fiber optics","Structured cabling","SSH","Microwave radio links","Windows","Linux","Active Directory","Microsoft 365","PowerShell","Python","C++","JavaScript","Node.js","SQL","Playwright","FastAPI","Electron","Docker","Cloudflare","Git"]}}
+</script>
+<style>:root{--bg:#0a0b0d;--bg2:#0f1114;--card:#13161b;--line:#1f232a;--line2:#2b3039;--tx:#eef0f3;--tx2:#c9ced6;--mu:#98a0ac;--mu2:#6b7280;--ac:#7cc4ff;--ac2:#8b7bff;--ok:#3ddc97;--r:18px;--max:1160px;--navh:68px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--navh) + 12px);-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--tx);font:400 16px/1.65 "Inter Tight",ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+html[data-lang=en] .ro,html[data-lang=en] .ro-only{display:none!important}
+html[data-lang=ro] .en,html[data-lang=ro] .en-only{display:none!important}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font:inherit;color:inherit}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.narrow{max-width:900px}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;color:#000;padding:8px 12px;border-radius:8px;z-index:200}.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:6px}
+/* nav */
+header.nav{position:sticky;top:0;z-index:100;height:var(--navh);backdrop-filter:saturate(160%) blur(16px);-webkit-backdrop-filter:saturate(160%) blur(16px);background:rgba(10,11,13,.75);border-bottom:1px solid transparent;transition:border-color .3s,background .3s}
+header.nav.scrolled{border-color:var(--line);background:rgba(10,11,13,.88)}
+.navin{display:flex;align-items:center;justify-content:space-between;height:100%;gap:10px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+.mk{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--ac),var(--ac2));display:grid;place-items:center;font-size:12px;font-weight:800;color:#0a0b0d;flex:none}
+.menu ul{display:flex;gap:1px;list-style:none}
+.menu ul a{display:block;font-size:13px;color:var(--mu);padding:6px 8px;border-radius:9px;transition:color .2s,background .2s}
+.menu ul a:hover{color:var(--tx);background:rgba(255,255,255,.04)}
+.menu ul a.active{color:var(--tx);background:rgba(124,196,255,.10);box-shadow:inset 0 0 0 1px rgba(124,196,255,.22)}
+.menu-cta{display:none}
+.navr{display:flex;align-items:center;gap:10px}
+.lang{display:flex;border:1px solid var(--line2);border-radius:10px;padding:2px;background:rgba(255,255,255,.02)}
+.lang button{border:0;background:none;font-size:12px;font-weight:700;letter-spacing:.04em;padding:5px 9px;border-radius:8px;color:var(--mu);cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--tx);color:#0a0b0d}
+.burger{display:none;width:42px;height:42px;border:1px solid var(--line2);border-radius:11px;background:var(--card);cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+.burger span{display:block;width:18px;height:2px;background:var(--tx);border-radius:2px;transition:transform .3s,opacity .3s}
+.burger[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded=true] span:nth-child(2){opacity:0}
+.burger[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media (max-width:1280px){
+  .burger{display:flex}.cta-d{display:none}
+  .menu{position:fixed;top:var(--navh);left:0;right:0;height:calc(100vh - var(--navh));height:calc(100dvh - var(--navh));background:#0a0b0d;padding:20px 24px 32px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility 0s .25s;overflow:auto}
+  .menu.open{opacity:1;transform:none;visibility:visible;transition:opacity .25s,transform .25s}
+  .menu ul{flex-direction:column;gap:2px}
+  .menu ul a{font-size:20px;font-weight:600;padding:14px 12px;color:var(--tx2);border-bottom:1px solid var(--line);border-radius:0}
+  .menu ul a.active{box-shadow:none;background:none;color:var(--ac)}
+  .menu-cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  body.menu-open{overflow:hidden}
+}
+@media (max-width:420px){.bn{display:none}}
+/* hero */
+.hero{position:relative;padding:88px 0 80px;text-align:center}
+.hero:before{content:"";position:absolute;inset:-140px 0 auto;height:640px;background:radial-gradient(600px 300px at 50% 20%,rgba(124,196,255,.15),transparent 70%),radial-gradient(500px 260px at 70% 40%,rgba(139,123,255,.12),transparent 70%);pointer-events:none;z-index:-1}
+.avatar{width:128px;height:128px;margin:0 auto 26px;border-radius:50%;padding:3px;background:conic-gradient(from 210deg,var(--ac),var(--ac2),var(--ok),var(--ac))}
+.avatar>*{width:100%;height:100%;border-radius:50%;object-fit:cover;background:var(--bg2);border:3px solid var(--bg)}
+.mono-av{display:grid;place-items:center;font-size:40px;font-weight:800;letter-spacing:-.04em;background:linear-gradient(160deg,#1a1e26,#0f1115)!important}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--mu);border:1px solid var(--line2);background:rgba(255,255,255,.02);padding:6px 12px 6px 10px;border-radius:999px;margin-bottom:22px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);animation:pulse 2.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(61,220,151,.6)}70%{box-shadow:0 0 0 8px rgba(61,220,151,0)}100%{box-shadow:0 0 0 0 rgba(61,220,151,0)}}
+h1{font-size:clamp(42px,7.2vw,80px);line-height:1;letter-spacing:-.045em;font-weight:800}
+.grad{background:linear-gradient(92deg,#fff 10%,#b9dcff 50%,#b4a9ff 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.headline{margin:22px auto 0;max-width:780px;font-size:clamp(16px,2vw,19px);color:var(--mu)}
+.headline b{color:var(--tx);font-weight:600}
+.loc{margin-top:12px;font-size:14px;color:var(--mu2)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:32px}
+.btns.left{justify-content:flex-start;margin-top:22px}
+.btn{display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 20px;border-radius:12px;font-weight:600;font-size:15px;border:1px solid var(--line2);background:var(--card);cursor:pointer;transition:transform .2s,border-color .2s,background .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px);border-color:#3a4150}
+.btn.pri{background:linear-gradient(135deg,#a6d7ff,#7cc4ff 45%,#8b7bff);color:#0a0b0d;border:0;box-shadow:0 8px 24px -10px rgba(124,196,255,.55)}
+.btn.sm{height:38px;padding:0 14px;font-size:14px;border-radius:10px}
+.btn svg{width:18px;height:18px;flex:none}.btn.sm svg{width:16px;height:16px}
+.btn small{font-weight:500;opacity:.65;font-size:12px}
+/* sections */
+section{padding:96px 0;border-top:1px solid var(--line)}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:44px;flex-wrap:wrap}
+.sh h2{font-size:clamp(32px,4.4vw,48px);letter-spacing:-.035em;line-height:1.05;font-weight:800}
+.sh p{color:var(--mu);max-width:440px;font-size:15px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ac);margin-bottom:10px;font-weight:600}
+h2.sub{font-size:clamp(26px,3vw,34px);letter-spacing:-.03em;line-height:1.15;margin-bottom:20px;font-weight:700}
+/* quick facts */
+.facts-s{padding-top:72px}
+.qf{display:grid;grid-template-columns:1.25fr 1fr;border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,#111418,#0d0f12);overflow:hidden}
+.qgrid{display:grid;grid-template-columns:1fr 1fr;border-right:1px solid var(--line)}
+.qgrid>div{padding:22px 24px;border-bottom:1px solid var(--line)}
+.qgrid>div:nth-child(odd){border-right:1px solid var(--line)}
+.qgrid>div:nth-last-child(-n+2){border-bottom:0}
+.qgrid dt{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu2);font-weight:600;margin-bottom:6px}
+.qgrid dd{font-size:15.5px;color:var(--tx);font-weight:500;line-height:1.45}
+.qside{padding:24px 26px}
+.qlabel{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu2);font-weight:600;margin:0 0 10px}
+.qside .chips{margin-bottom:22px}
+.qach{color:var(--tx2);font-size:14.5px}
+@media (max-width:960px){.qf{grid-template-columns:1fr}.qgrid{border-right:0;border-bottom:1px solid var(--line)}}
+@media (max-width:560px){.qgrid{grid-template-columns:1fr}.qgrid>div{border-right:0!important;border-bottom:1px solid var(--line)!important}.qgrid>div:last-child{border-bottom:0!important}}
+/* about */
+.about{display:grid;grid-template-columns:1.35fr 1fr;gap:56px;align-items:start}
+.about p{color:var(--tx2);font-size:17px;margin-bottom:16px}
+.about p b{color:#fff;font-weight:600}
+.focus{border:1px solid var(--line);border-radius:var(--r);background:var(--bg2);padding:26px}
+.focus h3{font-size:12px;color:var(--mu);font-weight:600;text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px}
+.focus li{list-style:none;display:flex;gap:10px;align-items:baseline;padding:10px 0;border-bottom:1px dashed var(--line);font-size:15px}
+.focus li:last-child{border:0}
+.focus li:before{content:"→";color:var(--ac)}
+@media (max-width:860px){.about{grid-template-columns:1fr;gap:32px}}
+/* timeline */
+.tl{position:relative;display:grid;gap:18px}
+.tl:before{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:1px;background:linear-gradient(var(--line2),transparent)}
+.ti{position:relative;padding-left:40px}
+.ti:before{content:"";position:absolute;left:0;top:28px;width:15px;height:15px;border-radius:50%;background:var(--bg);border:2px solid var(--ac)}
+.tc{border:1px solid var(--line);border-radius:var(--r);background:var(--bg2);padding:24px 26px;transition:border-color .3s}
+.tc:hover{border-color:var(--line2)}
+.thd{display:flex;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;align-items:baseline}
+.thd h3{font-size:19px;letter-spacing:-.02em;line-height:1.3}
+.when{font-size:12.5px;color:var(--mu);white-space:nowrap}
+.org{color:var(--ac);font-size:15px;font-weight:500;margin:4px 0 0}
+.tc ul{padding-left:18px;color:var(--tx2);font-size:15px;margin-top:12px}
+.tc li{margin:5px 0}.tc li::marker{color:var(--mu2)}
+/* projects */
+.projects{display:grid;gap:28px}
+.proj{display:grid;grid-template-columns:1.2fr 1fr;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--bg2);transition:border-color .3s}
+.proj:hover{border-color:var(--line2)}
+.proj:nth-child(even){grid-template-columns:1fr 1.2fr}
+.proj:nth-child(even) .media{order:2;border-right:0;border-left:1px solid var(--line)}
+.media{display:flex;flex-direction:column;border-right:1px solid var(--line);background:#0c0e11}
+.shot{position:relative;display:block;width:100%;aspect-ratio:16/10;border:0;padding:0;background:#0c0e11;cursor:zoom-in;overflow:hidden;text-align:left}
+.shot .bar{position:absolute;top:0;left:0;right:0;height:30px;background:#15181e;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:6px;padding:0 12px;z-index:2}
+.shot .bar i{width:9px;height:9px;border-radius:50%;background:#2c313b}
+.shot .bar>span{margin-left:10px;font-size:11px;color:var(--mu2)}
+.shot img{position:absolute;top:30px;left:0;width:100%;height:calc(100% - 30px);object-fit:cover;object-position:left top;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.shot:hover img{transform:scale(1.03)}
+.thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;padding:10px;border-top:1px solid var(--line)}
+.th{border:1px solid var(--line2);border-radius:8px;overflow:hidden;padding:0;background:#000;cursor:zoom-in;aspect-ratio:16/10;transition:border-color .2s,transform .2s}
+.th:hover{border-color:var(--ac);transform:translateY(-1px)}
+.th img{width:100%;height:100%;object-fit:cover;object-position:left top}
+.pbody{padding:32px}
+.ptag{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.ptag span{font-size:11.5px;color:var(--mu);border:1px solid var(--line2);padding:3px 9px;border-radius:999px}
+.pbody h3{font-size:25px;letter-spacing:-.025em;line-height:1.18;margin-bottom:10px}
+.pdesc{color:var(--mu);font-size:15px;margin-bottom:18px}
+.cs{display:grid;gap:12px;margin-bottom:20px}
+.cs div{font-size:14.5px;color:var(--tx2);padding-left:14px;border-left:2px solid var(--line2)}
+.cs b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu2);font-weight:600;margin-bottom:2px}
+.stack{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:22px}
+.stack span{font-size:12px;padding:4px 9px;border-radius:7px;background:#1a1e25;color:#cfd5de}
+.plink{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--ac)}
+a.plink:hover{text-decoration:underline;text-underline-offset:4px}
+.plink.muted{color:var(--mu2);font-weight:500}
+@media (max-width:920px){.proj,.proj:nth-child(even){grid-template-columns:1fr}.proj:nth-child(even) .media{order:0;border-left:0}.media{border-right:0;border-bottom:1px solid var(--line)}.pbody{padding:26px}}
+@media (max-width:520px){.thumbs{grid-template-columns:repeat(4,1fr)}.thumbs .th:nth-child(n+5){display:none}}
+.more{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:28px}
+.mini{border:1px solid var(--line);border-radius:var(--r);background:var(--bg2);padding:26px}
+.mini h3{font-size:19px;letter-spacing:-.02em;margin-bottom:8px}
+.mini p{color:var(--mu);font-size:14.5px;margin-bottom:14px}
+.codeart{display:block;width:100%;height:150px;border-radius:12px;background:#0c0e11;border:1px solid var(--line);margin-bottom:18px;padding:14px 16px;font-size:12px;color:#7b8494;overflow:hidden;line-height:1.7;text-align:left}
+.codeart.img{padding:0;cursor:zoom-in}.codeart.img img{width:100%;height:100%;object-fit:cover;object-position:left top}
+.codeart .k{color:#b4a9ff}.codeart .s{color:#3ddc97}.codeart .f{color:#7cc4ff}
+@media (max-width:760px){.more{grid-template-columns:1fr}}
+/* lab */
+.labs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.lab{border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,#121519,#0e1013);padding:26px;transition:border-color .3s,transform .3s}
+.lab:hover{border-color:var(--line2);transform:translateY(-2px)}
+.lab .ic{width:42px;height:42px;border-radius:12px;background:#1a1e25;display:grid;place-items:center;font-size:20px;margin-bottom:16px}
+.lab h3{font-size:18px;letter-spacing:-.02em;margin-bottom:8px}
+.lab p{color:var(--mu);font-size:14.5px;margin-bottom:16px}
+.lab .stack{margin:0}
+@media (max-width:960px){.labs{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.labs{grid-template-columns:1fr}}
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sk{border:1px solid var(--line);border-radius:var(--r);background:var(--bg2);padding:26px}
+.sk h3{display:flex;align-items:center;gap:10px;font-size:17px;margin-bottom:16px}
+.sk h3 i{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;font-style:normal;font-size:15px;background:#1a1e25}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chips span{font-size:13px;padding:6px 10px;border-radius:8px;border:1px solid var(--line2);color:#d6dbe3;transition:border-color .2s,color .2s}
+.chips span:hover{border-color:var(--ac);color:#fff}
+@media (max-width:900px){.skills{grid-template-columns:1fr}}
+/* education */
+.cols{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start}
+.ach{display:grid;gap:16px}
+.ac{border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;background:linear-gradient(180deg,#13161b,#0f1115);display:grid;grid-template-columns:44px 1fr;column-gap:14px}
+.ac .ic{grid-row:span 2;width:44px;height:44px;border-radius:12px;background:#1a1e25;display:grid;place-items:center;font-size:20px}
+.ac h3{font-size:17px;letter-spacing:-.02em}
+.ac p{color:var(--mu);font-size:14.5px}
+@media (max-width:900px){.cols{grid-template-columns:1fr}}
+/* contact */
+.contact{padding:104px 0}
+.ccols{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.contact h2{font-size:clamp(34px,5vw,56px);letter-spacing:-.045em;line-height:1.05;font-weight:800;margin-bottom:16px}
+.lead{color:var(--mu);font-size:16.5px;max-width:480px}
+.clist{display:grid;gap:12px;margin-top:26px;justify-items:start}
+.clist a{display:inline-flex;align-items:center;gap:10px;font-size:16px;font-weight:500;border-bottom:1px solid var(--line2);padding-bottom:2px}
+.clist a:hover{border-color:var(--ac)}
+.clist svg{width:18px;height:18px;color:var(--ac)}
+.copy{border:1px solid var(--line2);background:var(--card);border-radius:8px;padding:4px 10px;font-size:12.5px;color:var(--mu);cursor:pointer}
+.copy:hover{color:var(--tx)}
+.cloc{color:var(--mu2);font-size:14px}
+.cform{border:1px solid var(--line);border-radius:22px;background:var(--bg2);padding:28px;display:grid;gap:14px}
+.cform label{display:grid;gap:6px;font-size:13px;color:var(--mu);font-weight:500}
+.cform input,.cform textarea,.cform select{width:100%;font:inherit;font-size:15px;color:var(--tx);background:#0b0d10;border:1px solid var(--line2);border-radius:10px;padding:11px 13px;transition:border-color .2s,box-shadow .2s}
+.cform textarea{resize:vertical;min-height:120px}
+.cform input:focus,.cform textarea:focus,.cform select:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 3px rgba(124,196,255,.15)}
+.cform [aria-invalid=true]{border-color:#ff6b6b}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cform .btn{justify-content:center;width:100%;margin-top:4px}
+.fnote{font-size:12.5px;color:var(--mu2);text-align:center}
+@media (max-width:900px){.ccols{grid-template-columns:1fr;gap:40px}}
+@media (max-width:520px){.row2{grid-template-columns:1fr}}
+/* footer */
+footer{border-top:1px solid var(--line);padding:56px 0 28px;color:var(--mu);font-size:14px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+.fgrid p{margin-top:12px;max-width:340px;color:var(--mu2)}
+.fgrid h4{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu2);margin-bottom:12px}
+.fgrid nav,.fgrid>div:last-child{display:flex;flex-direction:column;gap:7px}
+.fgrid a:hover{color:var(--tx)}
+.fgrid .brand{color:var(--tx)}
+.fbot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:40px;padding-top:22px;border-top:1px solid var(--line);color:var(--mu2);font-size:13px}
+@media (max-width:760px){.fgrid{grid-template-columns:1fr 1fr}.fgrid>div:first-child{grid-column:1/-1}}
+/* lightbox */
+dialog#lb{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100vh;color:var(--tx)}
+dialog#lb::backdrop{background:rgba(5,6,8,.92);backdrop-filter:blur(6px)}
+dialog#lb[open]{display:flex;align-items:center;justify-content:center}
+#lb figure{max-width:min(1400px,92vw);display:grid;gap:12px;justify-items:center}
+#lb img{max-width:100%;max-height:82vh;border-radius:12px;border:1px solid var(--line2);box-shadow:0 30px 80px rgba(0,0,0,.6);object-fit:contain;background:#0c0e11}
+#lb figcaption{font-size:14px;color:var(--mu);text-align:center}
+.lbx,.lbn{position:fixed;border:1px solid var(--line2);background:rgba(19,22,27,.9);border-radius:12px;cursor:pointer;display:grid;place-items:center;color:var(--tx)}
+.lbx{top:18px;right:18px;width:44px;height:44px;font-size:18px}
+.lbn{top:50%;transform:translateY(-50%);width:48px;height:64px;font-size:30px}
+.lbn.prev{left:16px}.lbn.next{right:16px}
+@media (max-width:600px){.lbn{top:auto;bottom:18px;transform:none;height:48px}}
+/* motion */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in,.no-js .rv{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+@media print{header.nav,.btns,.media,.cform,dialog{display:none!important}body{background:#fff;color:#000}}
+/* ===== mobile QA fixes ===== */
+html{scroll-padding-top:calc(var(--navh) + env(safe-area-inset-top,0px) + 12px)}
+header.nav{height:calc(var(--navh) + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px)}
+.wrap{padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.eyebrow,.qgrid dt,.qlabel,.cs b,.focus h3,.fgrid h4{font-size:12px}
+.ptag span,.shot .bar>span,.stack span{font-size:12px}
+.brand{min-height:44px}
+.lang button{min-width:44px;min-height:38px;font-size:13px}
+.burger{width:44px;height:44px}
+.plink{min-height:44px}
+.copy{min-height:40px;padding:6px 14px;font-size:13px}
+.clist a{min-height:44px}
+footer .fgrid nav a,footer .fgrid>div:last-child a{display:flex;align-items:center;min-height:40px}
+footer .fgrid nav,footer .fgrid>div:last-child{gap:0}
+.fbot a{display:inline-flex;align-items:center;min-height:44px}
+.th{min-height:44px}
+dialog#lb{width:100vw;height:100vh;height:100dvh}
+.lbx{top:calc(14px + env(safe-area-inset-top,0px));right:calc(14px + env(safe-area-inset-right,0px))}
+@media (max-width:1280px){
+  .menu{top:calc(var(--navh) + env(safe-area-inset-top,0px));height:calc(100vh - var(--navh) - env(safe-area-inset-top,0px));height:calc(100dvh - var(--navh) - env(safe-area-inset-top,0px));padding-bottom:calc(32px + env(safe-area-inset-bottom,0px));overscroll-behavior:contain}
+  .menu ul a{min-height:52px;display:flex;align-items:center}
+}
+@media (pointer:coarse),(max-width:760px){
+  .btn.sm{height:44px;padding:0 16px}
+}
+@media (max-width:760px){
+  :root{--navh:60px}
+  section{padding:68px 0}
+  .facts-s{padding-top:56px}
+  .sh{margin-bottom:28px;gap:10px}
+  .hero{padding:56px 0 60px}
+  .avatar{width:104px;height:104px;margin-bottom:20px}
+  .mono-av{font-size:32px}
+  .btns{gap:10px}
+  .btns .btn{flex:1 1 auto;justify-content:center}
+  .pbody{padding:22px}
+  .pbody h3{font-size:22px}
+  .tc{padding:20px}
+  .ti{padding-left:30px}
+  .lab,.sk,.mini,.cform,.focus{padding:22px}
+  .qgrid>div{padding:18px 20px}.qside{padding:20px}
+  .contact{padding:72px 0}
+  .lbn{bottom:calc(16px + env(safe-area-inset-bottom,0px))}
+  .lbn.prev{left:calc(16px + env(safe-area-inset-left,0px))}.lbn.next{right:calc(16px + env(safe-area-inset-right,0px))}
+  #lb img{max-height:70dvh}
+  footer{padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:360px){
+  .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  .navr{gap:6px}
+  .lang button{min-width:40px;padding:5px 6px}
+  h1{font-size:38px}
+  .thumbs{grid-template-columns:repeat(3,1fr)}.thumbs .th:nth-child(n+4){display:none}
+  .btn{padding:0 14px;font-size:14.5px}
+}
+@media (max-width:520px) and (min-width:361px){.thumbs{grid-template-columns:repeat(4,1fr)}}
+.brand{min-width:44px}
+.lang button{min-height:44px}
+@media (max-width:360px){.lang button{min-width:44px;padding:5px 4px}}
+.copy{min-height:44px}
+
+
+/* packet tracer labs + notes */
+.repo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.repo-card{border:1px solid var(--line);border-radius:22px;background:var(--bg2);overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s,transform .3s}
+.repo-card:hover{border-color:var(--line2);transform:translateY(-3px)}
+.repo-img{display:block;aspect-ratio:16/10;background:#0c0e11;border-bottom:1px solid var(--line);overflow:hidden}
+.repo-img img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+.repo-img.svg img{object-fit:contain;padding:12px}
+.repo-body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.repo-body h3{font-size:18px}.repo-body h3 a:hover{text-decoration:underline}
+.repo-body p{color:var(--mu);font-size:14.5px;line-height:1.55}
+.repo-body .plink{margin-top:auto;display:inline-flex;align-items:center;gap:8px;font-size:13.5px}
+.repo-body .plink svg{width:16px;height:16px}
+.clist a svg,.btn svg{flex:none}
+@media (max-width:1000px){.repo-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.repo-grid{grid-template-columns:1fr}}
+.pkt-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.pkt-card{border:1px solid var(--line);border-radius:22px;background:var(--bg2);overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s}
+.pkt-card:hover{border-color:var(--line2)}
+.pkt-diag{background:#0c0e11;border-bottom:1px solid var(--line);padding:16px 10px 10px}
+.pkt-diag img{width:100%;height:auto;display:block}
+.pkt-body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.pkt-label{align-self:flex-start;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mu);border:1px solid var(--line2);padding:4px 9px;border-radius:999px;font-weight:600}
+.pkt-card h3{font-size:20px;letter-spacing:-.02em;line-height:1.25}
+.pkt-card .goal{color:var(--tx2);font-size:14.5px}
+.pkt-k{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--mu2);font-weight:600;margin-top:4px}
+.pkt-card pre{margin:0;padding:12px 14px;border-radius:12px;background:#0c0e11;border:1px solid var(--line);color:#cfd5de;font-size:12px;line-height:1.7;overflow-x:auto;white-space:pre}
+.notes-grid{display:grid;gap:18px;max-width:740px}
+.note-empty{border:1px dashed var(--line2);border-radius:var(--r);background:var(--bg2);padding:28px 26px;color:var(--mu);font-size:15.5px;line-height:1.6}
+@media (max-width:900px){.pkt-grid{grid-template-columns:1fr}}
+@media (max-width:760px){.pkt-body{padding:18px 18px 20px}.pkt-card pre{font-size:11.5px}}
+
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.wa-fab{position:fixed;right:max(20px,env(safe-area-inset-right,0px));bottom:max(20px,env(safe-area-inset-bottom,0px));z-index:90;width:56px;height:56px;border-radius:16px;background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 10px 28px -8px rgba(37,211,102,.6);transition:transform .2s,box-shadow .2s;border:0}
+.wa-fab:hover{transform:translateY(-2px);box-shadow:0 14px 32px -8px rgba(37,211,102,.7)}
+.wa-fab:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.wa-fab svg{width:28px;height:28px}
+body:has(dialog#lb[open]) .wa-fab,body.menu-open .wa-fab{opacity:0;pointer-events:none;visibility:hidden}
+@media (max-width:760px){
+  .wa-fab{width:52px;height:52px;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px))}
+  footer{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+}
+@media print{.wa-fab{display:none!important}}
+</style>
+</head>
+<body class="no-js">
+<a class="skip" href="#main"><span class="en">Skip to content</span><span class="ro" lang="ro">Sari la conținut</span></a>
+<header class="nav" id="top">
+  <div class="wrap navin">
+    <a href="#top" class="brand" aria-label="Lucian Ceușan"><span class="mk">LC</span><span class="bn">Lucian Ceușan</span></a>
+    <nav id="menu" class="menu" aria-label="Primary"><ul><li><a href="#facts" data-nav="facts"><span class="en">Quick facts</span><span class="ro" lang="ro">Pe scurt</span></a></li><li><a href="#about" data-nav="about"><span class="en">About</span><span class="ro" lang="ro">Despre</span></a></li><li><a href="#experience" data-nav="experience"><span class="en">Experience</span><span class="ro" lang="ro">Experiență</span></a></li><li><a href="#projects" data-nav="projects"><span class="en">Projects</span><span class="ro" lang="ro">Proiecte</span></a></li><li><a href="#lab" data-nav="lab"><span class="en">Home Lab</span><span class="ro" lang="ro">Home Lab</span></a></li><li><a href="#packet-labs" data-nav="packet-labs"><span class="en">Labs</span><span class="ro" lang="ro">Laboratoare</span></a></li><li><a href="#notes" data-nav="notes"><span class="en">Notes</span><span class="ro" lang="ro">Note</span></a></li><li><a href="#skills" data-nav="skills"><span class="en">Skills</span><span class="ro" lang="ro">Competențe</span></a></li><li><a href="#education" data-nav="education"><span class="en">Education</span><span class="ro" lang="ro">Educație</span></a></li><li><a href="#contact" data-nav="contact"><span class="en">Contact</span><span class="ro" lang="ro">Contact</span></a></li></ul>
+      <div class="menu-cta"><a class="btn pri sm en-only" href="/Lucian_Ceusan_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download CV <small>PDF</small></a><a class="btn pri sm ro-only" href="/Lucian_Ceusan_CV_RO.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Descarcă CV <small>PDF</small></a></div>
+    </nav>
+    <div class="navr">
+      <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="ro" aria-pressed="false">RO</button></div>
+      <span class="cta-d"><a class="btn pri sm en-only" href="/Lucian_Ceusan_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download CV <small>PDF</small></a><a class="btn pri sm ro-only" href="/Lucian_Ceusan_CV_RO.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Descarcă CV <small>PDF</small></a></span>
+      <button class="burger" type="button" aria-controls="menu" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="hero">
+  <div class="wrap">
+    <div class="avatar rv"><div class="mono-av" id="av" role="img" aria-label="Lucian Ceușan">LC</div></div>
+    <div class="pill rv"><span class="dot" aria-hidden="true"></span><span class="en">Open to work · remote or hybrid in Bucharest</span><span class="ro" lang="ro">Disponibil · remote sau hybrid în București</span></div>
+    <h1 class="rv"><span class="grad">Lucian-Ciprian<br>Ceușan</span></h1>
+    <p class="headline rv"><b><span class="en">IT &amp; Telecom Support</span><span class="ro" lang="ro">Suport IT &amp; Telecom</span></b> · <span class="en">Network &amp; Radio Communications · Cybersecurity · Python &amp; Node.js Automation</span><span class="ro" lang="ro">Rețele &amp; comunicații radio · Securitate cibernetică · Automatizare Python &amp; Node.js</span></p>
+    <p class="loc rv">📍 <span class="en">București, Romania — open to remote or hybrid</span><span class="ro" lang="ro">București, România — deschis la remote sau hybrid</span></p>
+    <div class="btns rv">
+      <a class="btn pri en-only" href="/Lucian_Ceusan_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download CV <small>PDF</small></a><a class="btn pri ro-only" href="/Lucian_Ceusan_CV_RO.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Descarcă CV <small>PDF</small></a>
+      <a class="btn" href="https://www.linkedin.com/in/lucian-ceusan-7a9179210" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21H9z"/></svg>LinkedIn</a>
+      <a class="btn" href="https://github.com/LucianCeusanRo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg>GitHub</a>
+      <a class="btn" href="mailto:ceusan.ciprian@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a>
+    </div>
+  </div>
+</div>
+
+<section id="facts" class="facts-s">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow"><span class="en">For recruiters</span><span class="ro" lang="ro">Pentru recrutori</span></div><h2><span class="en">Quick facts</span><span class="ro" lang="ro">Pe scurt</span></h2></div><p><span class="en">Everything you need at a glance.</span><span class="ro" lang="ro">Tot ce contează, dintr-o privire.</span></p></div>
+    <div class="qf rv">
+      <dl class="qgrid">
+        <div><dt><span class="en">Target roles</span><span class="ro" lang="ro">Roluri vizate</span></dt><dd><span class="en">IT Support · NOC · Telecom / Network Support · Junior SOC · Junior Developer</span><span class="ro" lang="ro">Suport IT · NOC · Suport Telecom / Rețea · Junior SOC · Junior Developer</span></dd></div>
+        <div><dt><span class="en">Work mode</span><span class="ro" lang="ro">Mod de lucru</span></dt><dd><span class="en">Based in Bucharest, Romania – open to remote or hybrid</span><span class="ro" lang="ro">Locuiesc în București, România – deschis la remote sau hybrid</span></dd></div>
+        <div><dt><span class="en">Work authorization</span><span class="ro" lang="ro">Drept de muncă</span></dt><dd><span class="en">EU citizen · no sponsorship needed</span><span class="ro" lang="ro">Cetățean UE · nu necesit sponsorizare</span></dd></div>
+        <div><dt><span class="en">Notice period</span><span class="ro" lang="ro">Preaviz</span></dt><dd><span class="en">30 days</span><span class="ro" lang="ro">30 de zile</span></dd></div>
+        <div><dt><span class="en">Languages</span><span class="ro" lang="ro">Limbi</span></dt><dd><span class="en">English (advanced) · Romanian (native)</span><span class="ro" lang="ro">Engleză (avansat) · Română (nativ)</span></dd></div>
+        <div><dt><span class="en">Current role</span><span class="ro" lang="ro">Rol actual</span></dt><dd><span class="en">Communications Specialist (radio relay, microwave links)</span><span class="ro" lang="ro">Specialist comunicații (radioreleu, legături microunde)</span></dd></div>
+      </dl>
+      <div class="qside">
+        <div class="qlabel"><span class="en">Top skills</span><span class="ro" lang="ro">Competențe cheie</span></div>
+        <div class="chips"><span>TCP/IP</span><span>VLAN</span><span>DHCP</span><span>DNS</span><span>VPN</span><span>Cisco CLI</span><span>Ceragon microwave</span><span>Windows</span><span>Linux</span><span>Active Directory</span><span>PowerShell</span><span>Python</span><span>Node.js</span><span>Playwright</span></div>
+        <div class="qlabel"><span class="en">Key achievements</span><span class="ro" lang="ro">Realizări cheie</span></div>
+        <p class="qach"><span class="en">Top individual score at CyberMan 2025 · Cisco NetAcad certifications · Telecommunications Electronics Technician (EQF 5), final grade 8.43</span><span class="ro" lang="ro">Cel mai bun punctaj individual la CyberMan 2025 · Certificări Cisco NetAcad · Tehnician electronist telecomunicații (EQF 5), media finală 8,43</span></p>
+        <div class="btns left">
+          <a class="btn pri sm en-only" href="/Lucian_Ceusan_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download CV <small>PDF</small></a><a class="btn pri sm ro-only" href="/Lucian_Ceusan_CV_RO.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Descarcă CV <small>PDF</small></a>
+          <a class="btn sm" href="https://www.linkedin.com/in/lucian-ceusan-7a9179210" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21H9z"/></svg>LinkedIn</a>
+          <a class="btn sm" href="mailto:ceusan.ciprian@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a>
+          <a class="btn sm" href="#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v12H7l-3 3z"/></svg><span class="en">Contact form</span><span class="ro" lang="ro">Formular</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div class="rv">
+      <div class="eyebrow"><span class="en">About</span><span class="ro" lang="ro">Despre</span></div>
+      <h2 class="sub"><span class="en">Telecom operations, networking and automation.</span><span class="ro" lang="ro">Operațiuni telecom, rețelistică și automatizare.</span></h2>
+      <p><span class="en">I work as a <b>Communications Specialist</b> at a Romanian state institution, where I operate and maintain <b>radio relay and Ceragon microwave links</b>, mobile communications centres and digital switching equipment.</span><span class="ro" lang="ro">Lucrez ca <b>specialist în comunicații</b> într-o instituție de stat din România, unde operez și întrețin <b>legături radioreleu și microunde Ceragon</b>, centre mobile de comunicații și echipamente de comutație digitală.</span></p>
+      <p><span class="en">Alongside telecom operations I build software: <b>Python and Node.js automation</b>, browser tooling with Playwright, web apps deployed on Cloudflare, Vercel and Netlify, and e-commerce workflows for <b>produsele.com</b>.</span><span class="ro" lang="ro">În paralel construiesc software: <b>automatizări în Python și Node.js</b>, unelte de browser cu Playwright, aplicații web publicate pe Cloudflare, Vercel și Netlify, plus fluxuri e-commerce pentru <b>produsele.com</b>.</span></p>
+      <p><span class="en">I trained as a <b>Telecommunications Electronics Technician (EQF level 5)</b> at a military NCO school for Communications, IT and Cyber Defence. Based in Bucharest, Romania – open to remote or hybrid. I am looking for a role in IT Support, NOC, Telecom Support, Junior SOC or Junior Development.</span><span class="ro" lang="ro">Am absolvit ca <b>tehnician electronist telecomunicații (nivel EQF 5)</b> o școală militară de subofițeri pentru comunicații, informatică și apărare cibernetică. Locuiesc în București, România – deschis la remote sau hybrid. Caut un rol în suport IT, NOC, suport telecom, Junior SOC sau dezvoltare junior.</span></p>
+    </div>
+    <div class="focus rv">
+      <h3><span class="en">Target roles</span><span class="ro" lang="ro">Roluri vizate</span></h3>
+      <ul>
+        <li><span class="en">IT Support / Helpdesk</span><span class="ro" lang="ro">Suport IT / Helpdesk</span></li>
+        <li><span class="en">NOC / Network Operations</span><span class="ro" lang="ro">NOC / Operațiuni de rețea</span></li>
+        <li><span class="en">Telecom / Network Support</span><span class="ro" lang="ro">Suport Telecom / Rețea</span></li>
+        <li>Junior SOC Analyst</li>
+        <li><span class="en">Junior Python / Node.js Developer</span><span class="ro" lang="ro">Junior Developer Python / Node.js</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap narrow">
+    <div class="sh rv"><div><div class="eyebrow"><span class="en">Career</span><span class="ro" lang="ro">Carieră</span></div><h2><span class="en">Experience</span><span class="ro" lang="ro">Experiență</span></h2></div></div>
+    <div class="tl">
+      <div class="ti rv"><div class="tc">
+        <div class="thd"><h3><span class="en">Communications Specialist</span><span class="ro" lang="ro">Specialist comunicații</span></h3><span class="when mono"><span class="en">Aug 2025 — Present</span><span class="ro" lang="ro">aug. 2025 — prezent</span></span></div>
+        <div class="org"><span class="en">Romanian state institution</span><span class="ro" lang="ro">Instituție de stat din România</span></div>
+        <ul>
+          <li><span class="en">Operate and maintain radio relay stations and Ceragon microwave links.</span><span class="ro" lang="ro">Operez și întrețin stații radioreleu și legături microunde Ceragon.</span></li>
+          <li><span class="en">Deploy and run mobile communications centres.</span><span class="ro" lang="ro">Instalez și operez centre mobile de comunicații.</span></li>
+          <li><span class="en">Configure and support digital switching equipment.</span><span class="ro" lang="ro">Configurez și asigur suportul pentru echipamente de comutație digitală.</span></li>
+        </ul>
+      </div></div>
+      <div class="ti rv"><div class="tc">
+        <div class="thd"><h3><span class="en">E-commerce Specialist</span><span class="ro" lang="ro">Specialist e-commerce</span></h3><span class="when mono"><span class="en">Mar 2025 — Present</span><span class="ro" lang="ro">mar. 2025 — prezent</span></span></div>
+        <div class="org">produsele.com</div>
+        <ul>
+          <li><span class="en">Run the online store's operations and product catalogue.</span><span class="ro" lang="ro">Gestionez operațiunile magazinului online și catalogul de produse.</span></li>
+          <li><span class="en">Build Python and Playwright automations for product research and listings.</span><span class="ro" lang="ro">Construiesc automatizări în Python și Playwright pentru cercetare de produse și listări.</span></li>
+          <li><span class="en">Integrate the Shopify Admin API into internal tools.</span><span class="ro" lang="ro">Integrez Shopify Admin API în unelte interne.</span></li>
+        </ul>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow"><span class="en">Selected work</span><span class="ro" lang="ro">Lucrări selectate</span></div><h2><span class="en">Projects</span><span class="ro" lang="ro">Proiecte</span></h2></div><p><span class="en">Real, deployed tools. Each one started from a concrete problem I or a client had. Click any screenshot to open the gallery.</span><span class="ro" lang="ro">Unelte reale, publicate. Fiecare a pornit de la o problemă concretă, a mea sau a unui client. Apasă pe orice captură pentru galerie.</span></p></div>
+    <div class="projects">
+<article class="proj rv" id="p-sts">
+  <div class="media">
+    <button class="shot" data-lb="sts" data-i="0" aria-label="Open gallery: STS Grilă — telecom training app &amp; 3D networking lab">
+      <span class="bar" aria-hidden="true"><i></i><i></i><i></i><span class="mono"><span class="en">5 screenshots · click to enlarge</span><span class="ro" lang="ro">5 capturi · click pentru mărire</span></span></span>
+      <img src="/img/sts-lab.webp" alt="3D lab: list of practical exam tasks" loading="lazy" decoding="async" width="1440" height="900">
+    </button>
+    <div class="thumbs" data-gal="sts"><button class="th" data-lb="sts" data-i="0" aria-label="Open screenshot 1: 3D lab: list of practical exam tasks"><img src="/img/sts-lab-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="sts" data-i="1" aria-label="Open screenshot 2: 3D lab classroom with network rack and fiber station"><img src="/img/sts-overview-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="sts" data-i="2" aria-label="Open screenshot 3: Network rack with switch and router in the 3D lab"><img src="/img/sts-rack-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="sts" data-i="3" aria-label="Open screenshot 4: Simulated Cisco CLI session on the lab laptop"><img src="/img/sts-cli-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="sts" data-i="4" aria-label="Open screenshot 5: Quiz dashboard with progress and practice modes"><img src="/img/sts-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><a href="/img/sts-lab.webp" data-cap="3D lab: list of practical exam tasks" hidden></a><a href="/img/sts-overview.webp" data-cap="3D lab classroom with network rack and fiber station" hidden></a><a href="/img/sts-rack.webp" data-cap="Network rack with switch and router in the 3D lab" hidden></a><a href="/img/sts-cli.webp" data-cap="Simulated Cisco CLI session on the lab laptop" hidden></a><a href="/img/sts.webp" data-cap="Quiz dashboard with progress and practice modes" hidden></a></div>
+  </div>
+  <div class="pbody">
+    <div class="ptag"><span><span class="en">Networking</span><span class="ro" lang="ro">Rețelistică</span></span><span><span class="en">Training</span><span class="ro" lang="ro">Pregătire</span></span><span><span class="en">PWA</span><span class="ro" lang="ro">PWA</span></span></div>
+    <h3><span class="en">STS Grilă — telecom training app &amp; 3D networking lab</span><span class="ro" lang="ro">STS Grilă — aplicație de pregătire telecom &amp; laborator 3D de rețelistică</span></h3>
+    <p class="pdesc"><span class="en">A study platform for telecom and networking exams, with a browser-based 3D practical lab.</span><span class="ro" lang="ro">Platformă de studiu pentru examene de telecomunicații și rețelistică, cu laborator practic 3D direct în browser.</span></p>
+    <div class="cs"><div><b><span class="en">Problem</span><span class="ro" lang="ro">Problema</span></b><span class="en">Candidates had no realistic way to practise hands-on networking tasks before a practical exam.</span><span class="ro" lang="ro">Candidații nu aveau o modalitate realistă de a exersa sarcini practice de rețelistică înainte de proba practică.</span></div><div><b><span class="en">What I built</span><span class="ro" lang="ro">Ce am construit</span></b><span class="en">A quiz trainer plus a 3D lab: RJ45 crimping, cabling, PuTTY console on COM, SSH on a switch with VLANs, DHCP, router ping and Cisco CLI commands. Installable as a PWA.</span><span class="ro" lang="ro">Un trainer de grile plus un laborator 3D: sertizare RJ45, cablare, consolă PuTTY pe COM, SSH pe switch cu VLAN-uri, DHCP, ping către router și comenzi Cisco CLI. Instalabil ca PWA.</span></div></div>
+    <div class="stack mono"><span>JavaScript</span><span>3D / WebGL</span><span>HTML/CSS</span><span>PWA</span><span>Netlify</span></div>
+    <a class="plink" href="https://sts-grila-ceusan3.netlify.app/" target="_blank" rel="noopener"><span class="en">Open live app</span><span class="ro" lang="ro">Deschide aplicația</span> ↗</a>
+  </div>
+</article>
+<article class="proj rv" id="p-ecom">
+  <div class="media">
+    <button class="shot" data-lb="ecom" data-i="0" aria-label="Open gallery: Ecom Radar — product research automation">
+      <span class="bar" aria-hidden="true"><i></i><i></i><i></i><span class="mono"><span class="en">3 screenshots · click to enlarge</span><span class="ro" lang="ro">3 capturi · click pentru mărire</span></span></span>
+      <img src="/img/ecom-radar.webp" alt="Ecom Radar dashboard with researched products and margins" loading="lazy" decoding="async" width="1440" height="900">
+    </button>
+    <div class="thumbs" data-gal="ecom"><button class="th" data-lb="ecom" data-i="0" aria-label="Open screenshot 1: Ecom Radar dashboard with researched products and margins"><img src="/img/ecom-radar-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="ecom" data-i="1" aria-label="Open screenshot 2: Profit calculator with margin versus ROAS chart"><img src="/img/ecom-calc-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="ecom" data-i="2" aria-label="Open screenshot 3: Product detail view with cost breakdown"><img src="/img/ecom-detail-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><a href="/img/ecom-radar.webp" data-cap="Ecom Radar dashboard with researched products and margins" hidden></a><a href="/img/ecom-calc.webp" data-cap="Profit calculator with margin versus ROAS chart" hidden></a><a href="/img/ecom-detail.webp" data-cap="Product detail view with cost breakdown" hidden></a></div>
+  </div>
+  <div class="pbody">
+    <div class="ptag"><span><span class="en">Automation</span><span class="ro" lang="ro">Automatizare</span></span><span><span class="en">E-commerce</span><span class="ro" lang="ro">E-commerce</span></span><span><span class="en">Local AI</span><span class="ro" lang="ro">AI local</span></span></div>
+    <h3><span class="en">Ecom Radar — product research automation</span><span class="ro" lang="ro">Ecom Radar — automatizare pentru cercetare de produse</span></h3>
+    <p class="pdesc"><span class="en">An end-to-end pipeline that finds candidate products, matches suppliers and prepares store listings.</span><span class="ro" lang="ro">Un pipeline complet care găsește produse candidate, le potrivește cu furnizori și pregătește listări în magazin.</span></p>
+    <div class="cs"><div><b><span class="en">Problem</span><span class="ro" lang="ro">Problema</span></b><span class="en">Product research for an online store was manual: browsing ad libraries, finding suppliers and calculating margins by hand.</span><span class="ro" lang="ro">Cercetarea de produse pentru un magazin online era manuală: căutare prin biblioteci de reclame, găsirea furnizorilor și calculul manual al marjelor.</span></div><div><b><span class="en">What I built</span><span class="ro" lang="ro">Ce am construit</span></b><span class="en">Collectors that gather products from public ad data, match them to suppliers with Playwright and a local LLM (Ollama), compute margins, and create Shopify product drafts via the Admin API. Packaged as a Windows installer with a dashboard.</span><span class="ro" lang="ro">Colectoare care adună produse din date publice de reclame, le potrivesc cu furnizori folosind Playwright și un LLM local (Ollama), calculează marjele și creează ciorne de produse în Shopify prin Admin API. Livrat ca installer Windows cu dashboard.</span></div></div>
+    <div class="stack mono"><span>Python</span><span>Playwright</span><span>Ollama</span><span>FastAPI</span><span>Shopify Admin API</span><span>PowerShell</span></div>
+    <span class="plink muted"><span class="en">Private tool · screenshots shown</span><span class="ro" lang="ro">Unealtă privată · capturi de ecran</span></span>
+  </div>
+</article>
+<article class="proj rv" id="p-client">
+  <div class="media">
+    <button class="shot" data-lb="client" data-i="0" aria-label="Open gallery: Speech-therapy practice website">
+      <span class="bar" aria-hidden="true"><i></i><i></i><i></i><span class="mono"><span class="en">5 screenshots · click to enlarge</span><span class="ro" lang="ro">5 capturi · click pentru mărire</span></span></span>
+      <img src="/img/client-site.webp" alt="Website hero with booking call-to-action" loading="lazy" decoding="async" width="1440" height="900">
+    </button>
+    <div class="thumbs" data-gal="client"><button class="th" data-lb="client" data-i="0" aria-label="Open screenshot 1: Website hero with booking call-to-action"><img src="/img/client-site-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="client" data-i="1" aria-label="Open screenshot 2: Interactive 3D classroom with letters and picture cards"><img src="/img/client-3d-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="client" data-i="2" aria-label="Open screenshot 3: Sound games for children"><img src="/img/client-games-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="client" data-i="3" aria-label="Open screenshot 4: Printable worksheets workshop page"><img src="/img/client-atelier-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="client" data-i="4" aria-label="Open screenshot 5: Online booking request form"><img src="/img/client-booking-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><a href="/img/client-site.webp" data-cap="Website hero with booking call-to-action" hidden></a><a href="/img/client-3d.webp" data-cap="Interactive 3D classroom with letters and picture cards" hidden></a><a href="/img/client-games.webp" data-cap="Sound games for children" hidden></a><a href="/img/client-atelier.webp" data-cap="Printable worksheets workshop page" hidden></a><a href="/img/client-booking.webp" data-cap="Online booking request form" hidden></a></div>
+  </div>
+  <div class="pbody">
+    <div class="ptag"><span><span class="en">Client project</span><span class="ro" lang="ro">Proiect pentru client</span></span><span><span class="en">Web</span><span class="ro" lang="ro">Web</span></span><span><span class="en">3D</span><span class="ro" lang="ro">3D</span></span></div>
+    <h3><span class="en">Speech-therapy practice website</span><span class="ro" lang="ro">Site pentru un cabinet de logopedie</span></h3>
+    <p class="pdesc"><span class="en">A complete website for an independent speech therapist, built and maintained for the client.</span><span class="ro" lang="ro">Un site complet pentru un logoped independent, construit și întreținut pentru client.</span></p>
+    <div class="cs"><div><b><span class="en">Problem</span><span class="ro" lang="ro">Problema</span></b><span class="en">The practice needed an online presence where parents could find information and book sessions.</span><span class="ro" lang="ro">Cabinetul avea nevoie de o prezență online unde părinții să găsească informații și să facă programări.</span></div><div><b><span class="en">What I built</span><span class="ro" lang="ro">Ce am construit</span></b><span class="en">A bilingual site with online bookings, an admin area with login, automatic reminder emails, PWA support and interactive 3D games for children.</span><span class="ro" lang="ro">Un site bilingv cu programări online, zonă de administrare cu autentificare, emailuri automate de reamintire, suport PWA și jocuri 3D interactive pentru copii.</span></div></div>
+    <div class="stack mono"><span>JavaScript</span><span>Netlify Functions</span><span>PWA</span><span>HTML/CSS</span><span>3D / WebGL</span></div>
+    <a class="plink" href="https://catalinasova.netlify.app/" target="_blank" rel="noopener"><span class="en">Visit site</span><span class="ro" lang="ro">Vezi site-ul</span> ↗</a>
+  </div>
+</article>
+<article class="proj rv" id="p-lspilot">
+  <div class="media">
+    <button class="shot" data-lb="lspilot" data-i="0" aria-label="Open gallery: LSPilot AI — AI study assistant">
+      <span class="bar" aria-hidden="true"><i></i><i></i><i></i><span class="mono"><span class="en">3 screenshots · click to enlarge</span><span class="ro" lang="ro">3 capturi · click pentru mărire</span></span></span>
+      <img src="/img/lspilot.webp" alt="Extension panel with AI model selector, sync and history" loading="lazy" decoding="async" width="1440" height="900">
+    </button>
+    <div class="thumbs" data-gal="lspilot"><button class="th" data-lb="lspilot" data-i="0" aria-label="Open screenshot 1: Extension panel with AI model selector, sync and history"><img src="/img/lspilot-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="lspilot" data-i="1" aria-label="Open screenshot 2: Account dashboard with plan and credits"><img src="/img/lspilot-dashboard-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><button class="th" data-lb="lspilot" data-i="2" aria-label="Open screenshot 3: AI quiz generator form for teachers"><img src="/img/lspilot-generator-t.webp" alt="" loading="lazy" decoding="async" width="320" height="200"></button><a href="/img/lspilot.webp" data-cap="Extension panel with AI model selector, sync and history" hidden></a><a href="/img/lspilot-dashboard.webp" data-cap="Account dashboard with plan and credits" hidden></a><a href="/img/lspilot-generator.webp" data-cap="AI quiz generator form for teachers" hidden></a></div>
+  </div>
+  <div class="pbody">
+    <div class="ptag"><span><span class="en">SaaS</span><span class="ro" lang="ro">SaaS</span></span><span><span class="en">AI</span><span class="ro" lang="ro">AI</span></span><span><span class="en">Cross-platform</span><span class="ro" lang="ro">Multi-platformă</span></span></div>
+    <h3><span class="en">LSPilot AI — AI study assistant</span><span class="ro" lang="ro">LSPilot AI — asistent de studiu cu AI</span></h3>
+    <p class="pdesc"><span class="en">A learning assistant available as a browser extension and a desktop app, with accounts and subscriptions.</span><span class="ro" lang="ro">Un asistent de învățare disponibil ca extensie de browser și aplicație desktop, cu conturi și abonamente.</span></p>
+    <div class="cs"><div><b><span class="en">Problem</span><span class="ro" lang="ro">Problema</span></b><span class="en">Students wanted step-by-step explanations of course material in their own language, on any device.</span><span class="ro" lang="ro">Studenții voiau explicații pas cu pas ale materiei, în limba lor, pe orice dispozitiv.</span></div><div><b><span class="en">What I built</span><span class="ro" lang="ro">Ce am construit</span></b><span class="en">A Chrome extension and an Electron desktop app backed by Cloudflare Workers, with multiple AI models, multi-language explanations, account sync and Stripe billing.</span><span class="ro" lang="ro">O extensie Chrome și o aplicație desktop Electron, cu backend pe Cloudflare Workers, mai multe modele AI, explicații în mai multe limbi, sincronizare de cont și plăți prin Stripe.</span></div></div>
+    <div class="stack mono"><span>JavaScript</span><span>Electron</span><span>Cloudflare Workers</span><span>Stripe</span><span>REST</span></div>
+    <a class="plink" href="https://github.com/LucianCeusanRo/lspilot" target="_blank" rel="noopener"><span class="en">Source on GitHub</span><span class="ro" lang="ro">Codul pe GitHub</span> ↗</a>
+  </div>
+</article></div>
+    <div class="more">
+      <article class="mini rv">
+        <div class="codeart mono" aria-hidden="true"><span class="k">def</span> <span class="f">team_metrics</span>(matches):<br>&nbsp;&nbsp;<span class="s"># aggregate per-team performance</span><br>&nbsp;&nbsp;<span class="k">for</span> m <span class="k">in</span> matches:<br>&nbsp;&nbsp;&nbsp;&nbsp;stats[m.team].update(m)<br>&nbsp;&nbsp;<span class="k">return</span> stats</div>
+        <h3><span class="en">Sports analytics platform</span><span class="ro" lang="ro">Platformă de analiză sportivă</span></h3>
+        <p><span class="en">A Python project that processes sports statistics and turns them into team performance metrics.</span><span class="ro" lang="ro">Un proiect Python care procesează statistici sportive și le transformă în indicatori de performanță pe echipe.</span></p>
+        <div class="stack mono"><span>Python</span></div>
+      </article>
+      <article class="mini rv">
+        <button class="codeart img" data-lb="monitor" data-i="0" aria-label="Open screenshot: listing monitor"><img src="/img/monitor-t.webp" alt="Listing monitor table with products, supplier prices, sale prices and margins" loading="lazy" decoding="async"></button>
+        <div class="thumbs" data-gal="monitor" hidden><a href="/img/monitor.webp" data-cap="Listing monitor table with prices and margins" hidden></a></div>
+        <h3><span class="en">Price &amp; listing monitor</span><span class="ro" lang="ro">Monitor de prețuri &amp; listări</span></h3>
+        <p><span class="en">Scheduled scrapers that track product listings and prices, flag changes and export a reviewable table, with Windows Task Scheduler automation.</span><span class="ro" lang="ro">Scrapere programate care urmăresc listări și prețuri, semnalează schimbările și exportă un tabel ușor de verificat, automatizate cu Windows Task Scheduler.</span></p>
+        <div class="stack mono"><span>Python</span><span>Playwright</span><span>PowerShell</span><span>Task Scheduler</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="lab">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow"><span class="en">Hands-on</span><span class="ro" lang="ro">Practică</span></div><h2>Home Lab</h2></div><p><span class="en">What I run and practise on my own equipment, outside of work.</span><span class="ro" lang="ro">Ce rulez și exersez pe echipamentele mele, în afara serviciului.</span></p></div>
+    <div class="labs"><div class="lab rv"><div class="ic" aria-hidden="true">🧪</div><h3><span class="en">Cisco switch &amp; router practice</span><span class="ro" lang="ro">Exersare Cisco pe switch și router</span></h3><p><span class="en">VLANs, trunking, SSH hardening, DHCP and console access practised in the STS Grilă 3D lab I built.</span><span class="ro" lang="ro">VLAN-uri, trunk, securizare SSH, DHCP și acces pe consolă, exersate în laboratorul 3D STS Grilă construit de mine.</span></p><div class="stack mono"><span>VLAN</span><span>Trunk</span><span>SSH</span><span>DHCP</span><span>Cisco CLI</span></div></div><div class="lab rv"><div class="ic" aria-hidden="true">🔐</div><h3><span class="en">Tailscale remote access</span><span class="ro" lang="ro">Acces de la distanță cu Tailscale</span></h3><p><span class="en">A private WireGuard-based mesh network connecting my PC and laptop for secure remote access without opening ports.</span><span class="ro" lang="ro">O rețea mesh privată, bazată pe WireGuard, care îmi conectează PC-ul și laptopul pentru acces securizat de la distanță, fără porturi deschise.</span></p><div class="stack mono"><span>Tailscale</span><span>WireGuard</span><span>VPN</span></div></div><div class="lab rv"><div class="ic" aria-hidden="true">🎮</div><h3><span class="en">Sunshine / Moonlight streaming</span><span class="ro" lang="ro">Streaming Sunshine / Moonlight</span></h3><p><span class="en">Self-hosted low-latency desktop streaming from my Windows PC to a laptop, routed over Tailscale.</span><span class="ro" lang="ro">Streaming desktop cu latență mică, găzduit de mine, de pe PC-ul Windows pe laptop, prin Tailscale.</span></p><div class="stack mono"><span>Sunshine</span><span>Moonlight</span><span>Networking</span></div></div><div class="lab rv"><div class="ic" aria-hidden="true">🛡️</div><h3><span class="en">DNS ad-blocking</span><span class="ro" lang="ro">Blocare reclame prin DNS</span></h3><p><span class="en">DNS-level filtering of ads and trackers for devices on my network.</span><span class="ro" lang="ro">Filtrare la nivel de DNS a reclamelor și trackerelor pentru dispozitivele din rețeaua mea.</span></p><div class="stack mono"><span>DNS</span><span>Filtering</span></div></div><div class="lab rv"><div class="ic" aria-hidden="true">🖥️</div><h3><span class="en">Windows &amp; Linux administration</span><span class="ro" lang="ro">Administrare Windows &amp; Linux</span></h3><p><span class="en">Day-to-day admin of my own machines: PowerShell scripts, Task Scheduler jobs, Linux shells and SSH.</span><span class="ro" lang="ro">Administrarea zilnică a propriilor mașini: scripturi PowerShell, sarcini în Task Scheduler, shell Linux și SSH.</span></p><div class="stack mono"><span>PowerShell</span><span>Task Scheduler</span><span>Linux</span><span>SSH</span></div></div></div>
+  </div>
+</section>
+
+
+<section id="packet-labs">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow">Packet Tracer</div><h2><span class="en">Labs</span><span class="ro" lang="ro">Laboratoare</span></h2></div><p><span class="en">Four networking labs written as Cisco IOS configs for Packet Tracer. They are practice labs, not a production network. Configs and notes are on <a href="https://github.com/LucianCeusanRo/ccna-packet-tracer-labs" target="_blank" rel="noopener">GitHub</a>.</span><span class="ro" lang="ro">Patru laboratoare de rețelistică, scrise ca configurații Cisco IOS pentru Packet Tracer. Sunt exerciții, nu o rețea de producție. Configurațiile și notițele sunt pe <a href="https://github.com/LucianCeusanRo/ccna-packet-tracer-labs" target="_blank" rel="noopener">GitHub</a>.</span></p></div>
+    <div class="pkt-grid">
+      <article class="pkt-card rv">
+        <div class="pkt-diag"><img src="/img/labs/01-vlan-trunk.svg" alt="Topology: two switches connected by an 802.1Q trunk, with VLAN 10 and VLAN 20 access ports" width="640" height="300" decoding="async"></div>
+        <div class="pkt-body">
+          <span class="pkt-label"><span class="en">hands-on lab (Packet Tracer)</span><span class="ro" lang="ro">lab practic (Packet Tracer)</span></span>
+          <h3><span class="en">VLAN + trunk</span><span class="ro" lang="ro">VLAN + trunk</span></h3>
+          <p class="goal"><span class="en">Two switches share VLAN 10 (Staff) and VLAN 20 (Guests) over an 802.1Q trunk. Hosts in the same VLAN can reach each other; different VLANs cannot, because there is no router here.</span><span class="ro" lang="ro">Două switch-uri partajează VLAN 10 (Staff) și VLAN 20 (Guests) printr-un trunk 802.1Q. Host-urile din același VLAN se văd; cele din VLAN-uri diferite, nu — în laborator nu există un rutier.</span></p>
+          <div class="pkt-k"><span class="en">Key commands</span><span class="ro" lang="ro">Comenzi cheie</span></div>
+          <pre class="mono">vlan 10
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+show vlan brief
+show interfaces trunk</pre>
+          <div class="stack mono"><span>VLAN</span><span>802.1Q</span><span>Trunk</span><span>2960</span></div>
+        </div>
+      </article>
+      <article class="pkt-card rv">
+        <div class="pkt-diag"><img src="/img/labs/02-inter-vlan.svg" alt="Topology: a switch trunks to a router with two 802.1Q subinterfaces" width="640" height="230" decoding="async"></div>
+        <div class="pkt-body">
+          <span class="pkt-label"><span class="en">hands-on lab (Packet Tracer)</span><span class="ro" lang="ro">lab practic (Packet Tracer)</span></span>
+          <h3><span class="en">Inter-VLAN routing (router-on-a-stick)</span><span class="ro" lang="ro">Rutare inter-VLAN (router-on-a-stick)</span></h3>
+          <p class="goal"><span class="en">A single router port, split into subinterfaces with encapsulation dot1Q, is the gateway for VLAN 10 and VLAN 20 and routes between them.</span><span class="ro" lang="ro">Un singur port de rutier, împărțit în subinterfețe cu encapsulation dot1Q, e gateway pentru VLAN 10 și VLAN 20 și rutează între ele.</span></p>
+          <div class="pkt-k"><span class="en">Key commands</span><span class="ro" lang="ro">Comenzi cheie</span></div>
+          <pre class="mono">interface g0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+show ip route
+show vlans</pre>
+          <div class="stack mono"><span>Subinterfaces</span><span>802.1Q</span><span>Gateway</span><span>2911</span></div>
+        </div>
+      </article>
+      <article class="pkt-card rv">
+        <div class="pkt-diag"><img src="/img/labs/03-ospf.svg" alt="Topology: three routers in a triangle, OSPF area 0, each with a loopback" width="640" height="280" decoding="async"></div>
+        <div class="pkt-body">
+          <span class="pkt-label"><span class="en">hands-on lab (Packet Tracer)</span><span class="ro" lang="ro">lab practic (Packet Tracer)</span></span>
+          <h3><span class="en">OSPF, single area</span><span class="ro" lang="ro">OSPF, o singură zonă</span></h3>
+          <p class="goal"><span class="en">Three routers in area 0 become neighbors, advertise their loopbacks, and can ping 1.1.1.1, 2.2.2.2 and 3.3.3.3. The network command is a filter for interfaces, not a static route.</span><span class="ro" lang="ro">Trei rutiere din area 0 devin vecini, își anunță loopback-urile și pot da ping la 1.1.1.1, 2.2.2.2 și 3.3.3.3. Comanda network e un filtru de interfețe, nu o rută statică.</span></p>
+          <div class="pkt-k"><span class="en">Key commands</span><span class="ro" lang="ro">Comenzi cheie</span></div>
+          <pre class="mono">router ospf 1
+ router-id 1.1.1.1
+ network 10.0.12.0 0.0.0.3 area 0
+show ip ospf neighbor
+show ip route ospf</pre>
+          <div class="stack mono"><span>OSPF</span><span>Area 0</span><span>Wildcard</span><span>Loopback</span></div>
+        </div>
+      </article>
+      <article class="pkt-card rv">
+        <div class="pkt-diag"><img src="/img/labs/04-acl.svg" alt="Topology: router-on-a-stick with Staff and Guest VLANs and ACLs on the router" width="640" height="260" decoding="async"></div>
+        <div class="pkt-body">
+          <span class="pkt-label"><span class="en">hands-on lab (Packet Tracer)</span><span class="ro" lang="ro">lab practic (Packet Tracer)</span></span>
+          <h3><span class="en">Standard and extended ACL</span><span class="ro" lang="ro">ACL standard și extins</span></h3>
+          <p class="goal"><span class="en">A standard ACL can block the whole Guest network from reaching Staff (placed close to the destination). An extended ACL can allow only HTTP to 192.168.10.10 and deny the rest (placed close to the source). Use one variant at a time.</span><span class="ro" lang="ro">Un ACL standard poate bloca toată rețeaua Guest spre Staff (pus aproape de destinație). Unul extins poate lăsa doar HTTP către 192.168.10.10 și interzice restul (pus aproape de sursă). Se aplică o singură variantă pe rând.</span></p>
+          <div class="pkt-k"><span class="en">Key commands</span><span class="ro" lang="ro">Comenzi cheie</span></div>
+          <pre class="mono">access-list 10 deny 192.168.20.0 0.0.0.255
+ip access-list extended GUEST_TO_STAFF
+ permit tcp 192.168.20.0 0.0.0.255 host 192.168.10.10 eq 80
+ip access-group GUEST_TO_STAFF in</pre>
+          <div class="stack mono"><span>Standard ACL</span><span>Extended ACL</span><span>Wildcard</span><span>ip access-group</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="github">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow">GitHub</div><h2><span class="en">Projects on GitHub</span><span class="ro" lang="ro">Proiecte pe GitHub</span></h2></div><p><span class="en">Source code, with READMEs in English and Romanian. Everything is public.</span><span class="ro" lang="ro">Cod sursă, cu README în engleză și română. Totul e public.</span></p></div>
+    <div class="repo-grid">
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/rootfold" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/rootfold.webp" alt="Rootfold incidents console" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/rootfold" target="_blank" rel="noopener">Rootfold</a></h3>
+          <p><span class="en">Self-hosted NOC incident layer: folds an outage into one root-cause incident, shows the blast radius and re-checks children after recovery.</span><span class="ro" lang="ro">Strat de incidente pentru NOC, self-hosted: strânge o cădere într-un singur incident cu cauza principală, arată zona afectată și re-verifică copiii după revenire.</span></p>
+          <div class="stack mono"><span>Python</span><span>FastAPI</span><span>SQLite</span><span>Playwright</span><span>Docker</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/rootfold" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/rootfold</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img svg" href="https://github.com/LucianCeusanRo/ccna-packet-tracer-labs" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/labs/01-vlan-trunk.svg" alt="VLAN trunk lab topology" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/ccna-packet-tracer-labs" target="_blank" rel="noopener">CCNA Packet Tracer Labs</a></h3>
+          <p><span class="en">Four Cisco IOS labs: VLAN + trunk, inter-VLAN routing, OSPF single area, standard and extended ACLs, with configs and verification steps.</span><span class="ro" lang="ro">Patru laboratoare Cisco IOS: VLAN + trunk, rutare inter-VLAN, OSPF într-o singură zonă, ACL standard și extins, cu configurații și pași de verificare.</span></p>
+          <div class="stack mono"><span>Cisco IOS</span><span>VLAN</span><span>OSPF</span><span>ACL</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/ccna-packet-tracer-labs" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/ccna-packet-tracer-labs</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/sts-grila" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/sts-grila.webp" alt="STS Grilă 3D practical lab" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/sts-grila" target="_blank" rel="noopener">STS Grilă</a></h3>
+          <p><span class="en">Telecom and networking exam trainer (PWA): ~3,100 questions, lessons, games and a 3D lab for RJ45, console, SSH and VLAN tasks.</span><span class="ro" lang="ro">Aplicație de pregătire pentru examene de telecom și rețelistică (PWA): ~3.100 de grile, lecții, jocuri și laborator 3D pentru RJ45, consolă, SSH și VLAN.</span></p>
+          <div class="stack mono"><span>JavaScript</span><span>three.js</span><span>PWA</span><span>Netlify</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/sts-grila" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/sts-grila</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/ecom-radar" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/ecom-radar.webp" alt="Ecom Radar product dashboard" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/ecom-radar" target="_blank" rel="noopener">Ecom Radar</a></h3>
+          <p><span class="en">Product research pipeline: public ad data, supplier matching with Playwright and a local vision model, margins and Shopify drafts.</span><span class="ro" lang="ro">Pipeline de cercetare de produse: date publice de reclame, potrivire cu furnizori prin Playwright și un model local de vedere, marje și drafturi Shopify.</span></p>
+          <div class="stack mono"><span>Python</span><span>Playwright</span><span>Ollama</span><span>Shopify API</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/ecom-radar" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/ecom-radar</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/lspilot" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/lspilot.webp" alt="LSPilot study panel on a Moodle lesson" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/lspilot" target="_blank" rel="noopener">LSPilot</a></h3>
+          <p><span class="en">Moodle study assistant (browser extension + Cloudflare Worker): step-by-step explanations, hints, flashcards and learning from mistakes; switches itself off during graded exams.</span><span class="ro" lang="ro">Asistent de studiu pentru Moodle (extensie + Cloudflare Worker): explicații pas cu pas, indicii, flashcard-uri și învățare din greșeli; se oprește singur la testele notate.</span></p>
+          <div class="stack mono"><span>JavaScript</span><span>Manifest V3</span><span>Cloudflare Workers</span><span>Gemini</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/lspilot" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/lspilot</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/moodle-kb" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/moodle-kb.webp" alt="Searching the verified Moodle web-service map" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/moodle-kb" target="_blank" rel="noopener">Moodle KB</a></h3>
+          <p><span class="en">Moodle 4.x/5.x knowledge base: architecture, what the REST API can and cannot do, quiz formats, exam-mode detection, LTI, plus a map of 492 verified functions.</span><span class="ro" lang="ro">Bază de cunoștințe Moodle 4.x/5.x: arhitectură, ce poate și ce nu poate API-ul REST, formate de teste, detecția modului examen, LTI, plus o hartă cu 492 de funcții verificate.</span></p>
+          <div class="stack mono"><span>Moodle</span><span>REST API</span><span>Markdown</span><span>Python</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/moodle-kb" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/moodle-kb</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/betting-tips-dashboard" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/betting-tips-dashboard.webp" alt="Live odds monitor" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/betting-tips-dashboard" target="_blank" rel="noopener">Supreme Punter</a></h3>
+          <p><span class="en">Local odds-comparison dashboard: line shopping between two bookmakers, no-vig probability, capped ¼-Kelly stakes and a human-approval admin queue. Real placement is off by default.</span><span class="ro" lang="ro">Dashboard local de comparare a cotelor: line shopping între două case, probabilitate fără marjă, mize ¼ Kelly plafonate și coadă de aprobare manuală. Plasarea reală e oprită implicit.</span></p>
+          <div class="stack mono"><span>Python</span><span>FastAPI</span><span>Playwright</span><span>JSONL</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/betting-tips-dashboard" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/betting-tips-dashboard</span> ↗</a>
+        </div>
+      </article>
+      <article class="repo-card rv">
+        <a class="repo-img" href="https://github.com/LucianCeusanRo/lucian-ceusan-site" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/repos/lucian-ceusan-site.webp" alt="This portfolio site" loading="lazy" decoding="async" width="960" height="600"></a>
+        <div class="repo-body">
+          <h3><a href="https://github.com/LucianCeusanRo/lucian-ceusan-site" target="_blank" rel="noopener">lucian-ceusan.vercel.app</a></h3>
+          <p><span class="en">Source of this bilingual portfolio: static HTML/CSS/JS, EN/RO switch, no framework, deployed on Vercel.</span><span class="ro" lang="ro">Codul acestui portofoliu bilingv: HTML/CSS/JS static, comutare EN/RO, fără framework, publicat pe Vercel.</span></p>
+          <div class="stack mono"><span>HTML/CSS</span><span>JavaScript</span><span>Vercel</span></div>
+          <a class="plink" href="https://github.com/LucianCeusanRo/lucian-ceusan-site" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="mono">LucianCeusanRo/lucian-ceusan-site</span> ↗</a>
+        </div>
+      </article>
+    </div>
+    <div class="btns"><a class="btn" href="https://github.com/LucianCeusanRo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span class="en">All repositories on GitHub</span><span class="ro" lang="ro">Toate proiectele pe GitHub</span></a></div>
+  </div>
+</section>
+
+<section id="notes">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow">LinkedIn</div><h2><span class="en">Notes</span><span class="ro" lang="ro">Note</span></h2></div><p><span class="en">Short notes from posts I publish on LinkedIn.</span><span class="ro" lang="ro">Note scurte din postările pe care le public pe LinkedIn.</span></p></div>
+    <div class="notes-grid">
+      <div class="note-empty rv"><span class="en">I have not published any LinkedIn posts yet. When I do, they will appear here, with a link to the original.</span><span class="ro" lang="ro">Încă nu am publicat postări pe LinkedIn. Când o voi face, vor apărea aici, cu link către original.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow"><span class="en">Toolbox</span><span class="ro" lang="ro">Unelte</span></div><h2><span class="en">Skills</span><span class="ro" lang="ro">Competențe</span></h2></div><p><span class="en">What I use day to day across telecom, systems and software.</span><span class="ro" lang="ro">Ce folosesc zi de zi în telecom, sisteme și software.</span></p></div>
+    <div class="skills">
+      <div class="sk rv"><h3><i aria-hidden="true">🌐</i><span class="en">Networking &amp; Telecom</span><span class="ro" lang="ro">Rețelistică &amp; Telecom</span></h3><div class="chips"><span>TCP/IP</span><span>DNS</span><span>DHCP</span><span>VPN</span><span>VLAN</span><span>LACP</span><span>Firewalls</span><span>Subnetting</span><span>Fiber optics</span><span>Structured cabling</span><span>SSH</span><span>PuTTY</span><span>Radio relay</span><span>Ceragon microwave</span></div></div>
+      <div class="sk rv"><h3><i aria-hidden="true">🖥️</i><span class="en">Systems &amp; Support</span><span class="ro" lang="ro">Sisteme &amp; Suport</span></h3><div class="chips"><span>Windows</span><span>Linux</span><span>Active Directory</span><span>Microsoft 365</span><span>PowerShell</span><span>Troubleshooting</span></div></div>
+      <div class="sk rv"><h3><i aria-hidden="true">⚙️</i><span class="en">Development &amp; Cloud</span><span class="ro" lang="ro">Dezvoltare &amp; Cloud</span></h3><div class="chips"><span>Python</span><span>C++</span><span>JavaScript</span><span>Node.js</span><span>SQL</span><span>HTML/CSS</span><span>REST APIs</span><span>Playwright</span><span>FastAPI</span><span>Electron</span><span>Docker</span><span>Cloudflare</span><span>Vercel</span><span>Netlify</span><span>Git</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="sh rv"><div><div class="eyebrow"><span class="en">Learning</span><span class="ro" lang="ro">Formare</span></div><h2><span class="en">Education &amp; achievements</span><span class="ro" lang="ro">Educație &amp; realizări</span></h2></div></div>
+    <div class="cols">
+      <div class="tl">
+        <div class="ti rv"><div class="tc">
+          <div class="thd"><h3><span class="en">Telecommunications Electronics Technician</span><span class="ro" lang="ro">Tehnician electronist telecomunicații</span></h3><span class="when mono">2024 — 2025</span></div>
+          <div class="org"><span class="en">Military NCO School for Communications, IT &amp; Cyber Defence, Sibiu</span><span class="ro" lang="ro">Școala Militară de Subofițeri pentru Comunicații, Informatică și Apărare Cibernetică, Sibiu</span></div>
+          <ul><li><span class="en">EQF level 5 qualification · final exam grade 8.43/10</span><span class="ro" lang="ro">Calificare nivel EQF 5 · media examenului final 8,43/10</span></li></ul>
+        </div></div>
+        <div class="ti rv"><div class="tc">
+          <div class="thd"><h3><span class="en">Economics of Commerce, Tourism &amp; Services</span><span class="ro" lang="ro">Economia Comerțului, Turismului și Serviciilor</span></h3><span class="when mono">2023 — 2026</span></div>
+          <div class="org">Universitatea „Dimitrie Cantemir” Târgu Mureș</div>
+        </div></div>
+        <div class="ti rv"><div class="tc">
+          <div class="thd"><h3><span class="en">Computer Science (Informatică)</span><span class="ro" lang="ro">Informatică</span></h3><span class="when mono">2022 — 2023</span></div>
+          <div class="org">UMF Târgu Mureș</div>
+        </div></div>
+      </div>
+      <div class="ach">
+        <div class="ac rv"><div class="ic" aria-hidden="true">🏆</div><h3>CyberMan 2025</h3><p><span class="en">Top individual score at CyberMan 2025.</span><span class="ro" lang="ro">Cel mai bun punctaj individual la CyberMan 2025.</span></p></div>
+        <div class="ac rv"><div class="ic" aria-hidden="true">🎓</div><h3>Cisco Networking Academy</h3><p><span class="en">Cisco NetAcad certifications in networking.</span><span class="ro" lang="ro">Certificări Cisco NetAcad în rețelistică.</span></p></div>
+        <div class="ac rv"><div class="ic" aria-hidden="true">🗣️</div><h3><span class="en">English — Advanced</span><span class="ro" lang="ro">Engleză — avansat</span></h3><p><span class="en">Comfortable with technical documentation and remote, async communication.</span><span class="ro" lang="ro">Lucrez confortabil cu documentație tehnică și comunicare remote, asincronă.</span></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="ccols">
+      <div class="rv">
+        <div class="eyebrow"><span class="en">Contact</span><span class="ro" lang="ro">Contact</span></div>
+        <h2><span class="en">Let's work together.</span><span class="ro" lang="ro">Hai să lucrăm împreună.</span></h2>
+        <p class="lead"><span class="en">Open to remote or hybrid roles in Bucharest, in IT Support, NOC, Telecom Support, Junior SOC and Junior Development.</span><span class="ro" lang="ro">Deschis la roluri remote sau hybrid în București, în suport IT, NOC, suport telecom, Junior SOC și dezvoltare junior.</span></p>
+        <div class="clist">
+          <a href="mailto:ceusan.ciprian@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span>ceusan.ciprian@gmail.com</span></a>
+          <button type="button" class="copy" data-copy="ceusan.ciprian@gmail.com"><span class="en">Copy email</span><span class="ro" lang="ro">Copiază emailul</span></button>
+          <a href="https://www.linkedin.com/in/lucian-ceusan-7a9179210" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21H9z"/></svg><span>linkedin.com/in/lucian-ceusan-7a9179210</span></a>
+          <a href="https://github.com/LucianCeusanRo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg><span>github.com/LucianCeusanRo</span></a>
+          <span class="cloc">📍 <span class="en">București, Romania · open to remote or hybrid</span><span class="ro" lang="ro">București, România · deschis la remote sau hybrid</span></span>
+        </div>
+        <div class="btns left"><a class="btn pri en-only" href="/Lucian_Ceusan_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download CV <small>PDF</small></a><a class="btn pri ro-only" href="/Lucian_Ceusan_CV_RO.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Descarcă CV <small>PDF</small></a></div>
+      </div>
+      <form class="cform rv" id="cform" novalidate>
+        <div class="row2">
+          <label><span class="en">Name</span><span class="ro" lang="ro">Nume</span><input name="name" autocomplete="name" required></label>
+          <label><span class="en">Company</span><span class="ro" lang="ro">Companie</span><input name="company" autocomplete="organization"></label>
+        </div>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label><span class="en">Subject</span><span class="ro" lang="ro">Subiect</span><select name="topic"><option value="Job opportunity" data-ro="Oportunitate de angajare">Job opportunity</option><option value="Interview request" data-ro="Invitație la interviu">Interview request</option><option value="Project / collaboration" data-ro="Proiect / colaborare">Project / collaboration</option><option value="Other" data-ro="Altceva">Other</option></select></label>
+        <label><span class="en">Message</span><span class="ro" lang="ro">Mesaj</span><textarea name="message" rows="5" required></textarea></label>
+        <button class="btn pri" type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span class="en">Send message</span><span class="ro" lang="ro">Trimite mesajul</span></button>
+        <p class="fnote" id="fnote" role="status"><span class="en">Opens your email app with the message ready to send.</span><span class="ro" lang="ro">Se deschide aplicația de email cu mesajul pregătit de trimis.</span></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div><a href="#top" class="brand"><span class="mk">LC</span>Lucian Ceușan</a><p><span class="en">IT &amp; Telecom Support · Network &amp; Radio Communications · Python &amp; Node.js Automation</span><span class="ro" lang="ro">Suport IT &amp; Telecom · Rețele &amp; comunicații radio · Automatizare Python &amp; Node.js</span></p></div>
+    <nav aria-label="Footer"><h4><span class="en">Sections</span><span class="ro" lang="ro">Secțiuni</span></h4><a href="#facts"><span class="en">Quick facts</span><span class="ro" lang="ro">Pe scurt</span></a><a href="#about"><span class="en">About</span><span class="ro" lang="ro">Despre</span></a><a href="#experience"><span class="en">Experience</span><span class="ro" lang="ro">Experiență</span></a><a href="#projects"><span class="en">Projects</span><span class="ro" lang="ro">Proiecte</span></a><a href="#lab"><span class="en">Home Lab</span><span class="ro" lang="ro">Home Lab</span></a><a href="#packet-labs"><span class="en">Labs</span><span class="ro" lang="ro">Laboratoare</span></a><a href="#notes"><span class="en">Notes</span><span class="ro" lang="ro">Note</span></a><a href="#skills"><span class="en">Skills</span><span class="ro" lang="ro">Competențe</span></a><a href="#education"><span class="en">Education</span><span class="ro" lang="ro">Educație</span></a><a href="#contact"><span class="en">Contact</span><span class="ro" lang="ro">Contact</span></a></nav>
+    <div><h4><span class="en">Links</span><span class="ro" lang="ro">Linkuri</span></h4><a href="https://www.linkedin.com/in/lucian-ceusan-7a9179210" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/LucianCeusanRo" target="_blank" rel="noopener">GitHub</a><a href="mailto:ceusan.ciprian@gmail.com">Email</a><a href="/Lucian_Ceusan_CV.pdf" download>CV (EN)</a><a href="/Lucian_Ceusan_CV_RO.pdf" download>CV (RO)</a><a href="/llms.txt">llms.txt</a></div>
+  </div>
+  <div class="wrap fbot"><span>© 2026 Lucian-Ciprian Ceușan · București, Romania</span><a href="#top"><span class="en">Back to top ↑</span><span class="ro" lang="ro">Înapoi sus ↑</span></a></div>
+</footer>
+
+
+<dialog id="lb" aria-label="Screenshot gallery">
+  <button class="lbx" type="button" aria-label="Close">✕</button>
+  <button class="lbn prev" type="button" aria-label="Previous">‹</button>
+  <figure><img id="lbimg" alt=""><figcaption id="lbcap"></figcaption></figure>
+  <button class="lbn next" type="button" aria-label="Next">›</button>
+</dialog>
+<script>(function(){
+var d=document,root=d.documentElement,body=d.body;body.classList.remove('no-js');
+/* language */
+var RO_TITLE='Lucian Ceușan — Suport IT & Telecom, rețelistică, automatizare Python',EN_TITLE=d.title;
+function setLang(l,save){root.setAttribute('data-lang',l);root.lang=l;
+  d.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===l)});
+  d.title=l==='ro'?RO_TITLE:EN_TITLE;
+  d.querySelectorAll('option[data-ro]').forEach(function(o){if(!o.dataset.en)o.dataset.en=o.textContent;o.textContent=l==='ro'?o.dataset.ro:o.dataset.en});
+  if(save)try{localStorage.setItem('lang',l)}catch(e){}
+  var u=new URL(location.href);if(l==='ro')u.searchParams.set('lang','ro');else u.searchParams.delete('lang');history.replaceState(null,'',u)}
+var q=new URLSearchParams(location.search).get('lang'),st=null;try{st=localStorage.getItem('lang')}catch(e){}
+setLang(q==='ro'||q==='en'?q:(st||((navigator.language||'').toLowerCase().indexOf('ro')===0?'ro':'en')),false);
+d.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang,true)})});
+/* photo (auto-swap when available) */
+var av=new Image();av.onload=function(){var x=d.getElementById('av');if(!x)return;var i=d.createElement('img');i.src=av.src;i.alt='Lucian Ceușan';i.width=128;i.height=128;x.replaceWith(i)};av.src='/img/lucian.webp';
+/* nav */
+var nav=d.querySelector('header.nav'),menu=d.getElementById('menu'),burger=d.querySelector('.burger');
+addEventListener('scroll',function(){nav.classList.toggle('scrolled',scrollY>8)},{passive:true});
+function closeMenu(focus){menu.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.setAttribute('aria-label','Open menu');body.classList.remove('menu-open');if(focus)burger.focus()}
+burger.addEventListener('click',function(){var o=!menu.classList.contains('open');menu.classList.toggle('open',o);burger.setAttribute('aria-expanded',o);burger.setAttribute('aria-label',o?'Close menu':'Open menu');body.classList.toggle('menu-open',o);if(o){var f=menu.querySelector('a');f&&f.focus()}});
+menu.addEventListener('click',function(e){if(e.target.closest('a'))closeMenu(false)});
+d.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.classList.contains('open'))closeMenu(true);
+  if(e.key==='Tab'&&menu.classList.contains('open')){var f=[burger].concat([].slice.call(menu.querySelectorAll('a'))),i=f.indexOf(d.activeElement);if(e.shiftKey&&i<=0){e.preventDefault();f[f.length-1].focus()}else if(!e.shiftKey&&i===f.length-1){e.preventDefault();f[0].focus()}}});
+addEventListener('resize',function(){if(innerWidth>1120&&menu.classList.contains('open'))closeMenu(false)});
+/* active section */
+var links={};d.querySelectorAll('[data-nav]').forEach(function(a){links[a.dataset.nav]=a});
+var secs=Object.keys(links).map(function(id){return d.getElementById(id)}).filter(Boolean);
+function spy(){var y=scrollY+innerHeight*0.33,cur=null;secs.forEach(function(s){if(s.offsetTop<=y)cur=s.id});
+  if(innerHeight+scrollY>=d.body.scrollHeight-4)cur='contact';
+  Object.keys(links).forEach(function(k){var on=k===cur;links[k].classList.toggle('active',on);if(on)links[k].setAttribute('aria-current','true');else links[k].removeAttribute('aria-current')})}
+addEventListener('scroll',spy,{passive:true});spy();
+/* reveal */
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+d.querySelectorAll('.rv').forEach(function(el,i){if(el.closest('.hero'))el.style.transitionDelay=(i*60)+'ms';io.observe(el)})}else d.querySelectorAll('.rv').forEach(function(el){el.classList.add('in')});
+/* lightbox */
+var lb=d.getElementById('lb'),li=d.getElementById('lbimg'),lc=d.getElementById('lbcap'),items=[],idx=0,opener=null;
+function show(i){idx=(i+items.length)%items.length;var a=items[idx];li.src=a.getAttribute('href');li.alt=a.dataset.cap;lc.textContent=a.dataset.cap+'  ·  '+(idx+1)+' / '+items.length;
+  lb.querySelectorAll('.lbn').forEach(function(b){b.hidden=items.length<2})}
+d.addEventListener('click',function(e){var t=e.target.closest('[data-lb]');if(!t)return;var g=d.querySelector('[data-gal="'+t.dataset.lb+'"]');if(!g)return;
+  items=[].slice.call(g.querySelectorAll('a[data-cap]'));opener=t;show(+t.dataset.i||0);
+  if(lb.showModal)lb.showModal();else lb.setAttribute('open','');lb.querySelector('.lbx').focus()});
+lb.querySelector('.lbx').addEventListener('click',function(){lb.close()});
+lb.querySelector('.prev').addEventListener('click',function(){show(idx-1)});
+lb.querySelector('.next').addEventListener('click',function(){show(idx+1)});
+lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+lb.addEventListener('keydown',function(e){if(e.key==='ArrowRight')show(idx+1);if(e.key==='ArrowLeft')show(idx-1)});
+lb.addEventListener('close',function(){li.removeAttribute('src');opener&&opener.focus()});
+var sx=0;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)show(idx+(dx<0?1:-1))});
+/* copy email */
+d.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){var ro=root.dataset.lang==='ro';navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy).then(function(){var o=b.innerHTML;b.textContent=ro?'Copiat ✓':'Copied ✓';setTimeout(function(){b.innerHTML=o},1600)})})});
+/* contact form -> mailto */
+var f=d.getElementById('cform');
+f.addEventListener('submit',function(e){e.preventDefault();var ok=true,ro=root.dataset.lang==='ro';
+  ['name','email','message'].forEach(function(n){var el=f.elements[n],v=el.value.trim(),bad=!v||(n==='email'&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v));el.setAttribute('aria-invalid',bad);if(bad&&ok){el.focus();ok=false}});
+  var note=d.getElementById('fnote');
+  if(!ok){note.textContent=ro?'Completează numele, un email valid și mesajul.':'Please fill in your name, a valid email and a message.';return}
+  var E=f.elements,sub=E.topic.value+' — '+E.name.value.trim()+(E.company.value.trim()?' ('+E.company.value.trim()+')':'');
+  var bodyTxt=E.message.value.trim()+'\n\n—\n'+E.name.value.trim()+(E.company.value.trim()?', '+E.company.value.trim():'')+'\n'+E.email.value.trim();
+  location.href='mailto:ceusan.ciprian@gmail.com?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(bodyTxt);
+  note.textContent=ro?'Se deschide aplicația de email… Dacă nu pornește, scrie direct la ceusan.ciprian@gmail.com.':'Opening your email app… If nothing happens, write to ceusan.ciprian@gmail.com.'});
+})();
+</script>
+</body>
+</html>
