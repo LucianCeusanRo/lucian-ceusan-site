@@ -6,6 +6,7 @@
 
 **My bilingual (EN/RO) portfolio — one static page, no framework, no build.**
 
+  <a href="https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/workflows/ci.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
   <img alt="HTML/CSS/JS" src="https://img.shields.io/badge/language-HTML%2FCSS%2FJS-blue">
   <a href="https://github.com/LucianCeusanRo/lucian-ceusan-site/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/LucianCeusanRo/lucian-ceusan-site?style=flat"></a>
