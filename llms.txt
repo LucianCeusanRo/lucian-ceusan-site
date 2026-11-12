@@ -6,6 +6,7 @@
 - Email: ceusan.ciprian@gmail.com
 - LinkedIn: https://www.linkedin.com/in/lucian-ceusan-7a9179210
 - GitHub: https://github.com/LucianCeusanRo (rootfold, ccna-packet-tracer-labs, sts-grila, ecom-radar, lspilot, moodle-kb, betting-tips-dashboard, lucian-ceusan-site)
+- WhatsApp: +40 758 080 679 — https://wa.me/40758080679
 - CV (PDF, EN): https://lucian-ceusan.vercel.app/Lucian_Ceusan_CV.pdf
 - CV (PDF, RO): https://lucian-ceusan.vercel.app/Lucian_Ceusan_CV_RO.pdf
 
@@ -32,7 +33,7 @@
 ## Projects
 - [STS Grilă](https://sts-grila-ceusan3.netlify.app/): telecom training app with a 3D networking lab (VLAN, SSH, DHCP, Cisco CLI), PWA
 - [Speech-therapy practice website](https://catalinasova.netlify.app/): client project with bookings, admin login, reminder emails, PWA
-- [LSPilot AI](https://github.com/LucianCeusanRo/lspilot): AI study assistant (browser extension + Electron), Cloudflare Workers, Stripe
+- [LSPilot AI](https://lspilot-ai-pro.slstoresrl.workers.dev/): AI study assistant (browser extension + Electron), Cloudflare Workers, Stripe
 - Ecom Radar: product research automation (Python, Playwright, Ollama, FastAPI, Shopify Admin API)
 - Sports analytics platform (Python)
 - Price & listing monitor (Python, Playwright, PowerShell, Task Scheduler)
