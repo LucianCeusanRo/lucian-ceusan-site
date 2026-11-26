@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:11:13Z",
+ "updated": "2026-11-26T11:19:37Z",
  "overall": "ok",
  "red": 0,
  "demos": [
@@ -10,7 +10,7 @@
    "repo": "lucian-ceusan-site",
    "state": "up",
    "code": 200,
-   "ms": 64,
+   "ms": 242,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -20,7 +20,7 @@
    "repo": "rust-ro",
    "state": "up",
    "code": 200,
-   "ms": 231,
+   "ms": 292,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -30,7 +30,7 @@
    "repo": "sts-grila",
    "state": "up",
    "code": 200,
-   "ms": 389,
+   "ms": 376,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -40,7 +40,7 @@
    "repo": "lspilot",
    "state": "up",
    "code": 200,
-   "ms": 130,
+   "ms": 158,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -50,7 +50,7 @@
    "repo": "safevibe",
    "state": "up",
    "code": 200,
-   "ms": 291,
+   "ms": 168,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -60,7 +60,7 @@
    "repo": "rootfold",
    "state": "up",
    "code": 200,
-   "ms": 38,
+   "ms": 146,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -70,7 +70,7 @@
    "repo": "moodle-kb",
    "state": "up",
    "code": 200,
-   "ms": 157,
+   "ms": 232,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -80,7 +80,7 @@
    "repo": "ecom-radar",
    "state": "up",
    "code": 200,
-   "ms": 255,
+   "ms": 151,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -90,7 +90,7 @@
    "repo": "betting-tips-dashboard",
    "state": "up",
    "code": 200,
-   "ms": 159,
+   "ms": 170,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -100,7 +100,7 @@
    "repo": "ccna-packet-tracer-labs",
    "state": "up",
    "code": 200,
-   "ms": 270,
+   "ms": 177,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -110,7 +110,7 @@
    "repo": "pc-pret",
    "state": "up",
    "code": 200,
-   "ms": 296,
+   "ms": 119,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -120,7 +120,7 @@
    "repo": "stream-clipper",
    "state": "up",
    "code": 200,
-   "ms": 111,
+   "ms": 119,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -130,7 +130,7 @@
    "repo": null,
    "state": "up",
    "code": 200,
-   "ms": 370,
+   "ms": 341,
    "since": "2026-11-26T11:08:18Z"
   }
  ],
@@ -141,10 +141,28 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "Graph Update: pip in /. #1732475852",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard/actions/runs/45808832238",
+     "at": "2026-11-26T11:16:14Z"
+    },
+    {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard/actions/runs/45808824971",
+     "at": "2026-11-26T11:16:02Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard/actions/runs/43197028099",
-     "at": "2026-11-12T10:04:21Z"
+     "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard/actions/runs/45808634764",
+     "at": "2026-11-26T11:13:54Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard/actions/runs/45808634777",
+     "at": "2026-11-26T11:13:47Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -155,10 +173,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ccna-packet-tracer-labs/actions/runs/45808794420",
+     "at": "2026-11-26T11:15:42Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/ccna-packet-tracer-labs/actions/runs/43205674155",
-     "at": "2026-11-12T11:02:52Z"
+     "url": "https://github.com/LucianCeusanRo/ccna-packet-tracer-labs/actions/runs/45808636729",
+     "at": "2026-11-26T11:13:44Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ccna-packet-tracer-labs/actions/runs/45808636738",
+     "at": "2026-11-26T11:13:46Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -169,10 +199,28 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "Graph Update: pip in /. #1732475513",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ecom-radar/actions/runs/45808777799",
+     "at": "2026-11-26T11:16:14Z"
+    },
+    {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ecom-radar/actions/runs/45808770688",
+     "at": "2026-11-26T11:16:54Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ecom-radar/actions/runs/45808640477",
+     "at": "2026-11-26T11:13:47Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/ecom-radar/actions/runs/43205748302",
-     "at": "2026-11-12T11:03:22Z"
+     "url": "https://github.com/LucianCeusanRo/ecom-radar/actions/runs/45808640656",
+     "at": "2026-11-26T11:13:50Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -183,10 +231,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/facturabot/actions/runs/45808718278",
+     "at": "2026-11-26T11:15:09Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/facturabot/actions/runs/45808643564",
+     "at": "2026-11-26T11:13:49Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/facturabot/actions/runs/45802908289",
-     "at": "2026-11-26T10:37:39Z"
+     "url": "https://github.com/LucianCeusanRo/facturabot/actions/runs/45808643502",
+     "at": "2026-11-26T11:14:52Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -197,10 +257,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lspilot/actions/runs/45808782408",
+     "at": "2026-11-26T11:16:27Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lspilot/actions/runs/45808647548",
+     "at": "2026-11-26T11:13:49Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/lspilot/actions/runs/43205672495",
-     "at": "2026-11-12T11:03:00Z"
+     "url": "https://github.com/LucianCeusanRo/lspilot/actions/runs/45808647465",
+     "at": "2026-11-26T11:13:54Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -211,10 +283,34 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808727786",
+     "at": "2026-11-26T11:15:02Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808225684",
-     "at": "2026-11-26T11:11:10Z"
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808651488",
+     "at": "2026-11-26T11:13:50Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808651609",
+     "at": "2026-11-26T11:13:51Z"
+    },
+    {
+     "name": "Backup repos",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808241259",
+     "at": "2026-11-26T11:11:22Z"
+    },
+    {
+     "name": "Status monitor",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808237796",
+     "at": "2026-11-26T11:11:27Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -225,10 +321,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/moodle-kb/actions/runs/45808760575",
+     "at": "2026-11-26T11:15:35Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/moodle-kb/actions/runs/45808655683",
+     "at": "2026-11-26T11:13:53Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/moodle-kb/actions/runs/44591191192",
-     "at": "2026-11-19T18:45:45Z"
+     "url": "https://github.com/LucianCeusanRo/moodle-kb/actions/runs/45808655873",
+     "at": "2026-11-26T11:13:52Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -239,10 +347,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/pc-pret/actions/runs/45808738856",
+     "at": "2026-11-26T11:15:19Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/pc-pret/actions/runs/45808659804",
+     "at": "2026-11-26T11:13:59Z"
+    },
+    {
      "name": "Snapshot and deploy",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/pc-pret/actions/runs/45761793164",
-     "at": "2026-11-26T05:41:51Z"
+     "url": "https://github.com/LucianCeusanRo/pc-pret/actions/runs/45808659953",
+     "at": "2026-11-26T11:14:22Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -253,10 +373,28 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "Graph Update: uv in /. #1732475983",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rootfold/actions/runs/45808855298",
+     "at": "2026-11-26T11:16:34Z"
+    },
+    {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rootfold/actions/runs/45808846449",
+     "at": "2026-11-26T11:16:17Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rootfold/actions/runs/45808664545",
+     "at": "2026-11-26T11:13:57Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/rootfold/actions/runs/43197013350",
-     "at": "2026-11-12T10:04:28Z"
+     "url": "https://github.com/LucianCeusanRo/rootfold/actions/runs/45808664431",
+     "at": "2026-11-26T11:14:17Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -267,10 +405,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rust-ro/actions/runs/45808813629",
+     "at": "2026-11-26T11:17:41Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rust-ro/actions/runs/45808666706",
+     "at": "2026-11-26T11:14:04Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/rust-ro/actions/runs/43204054050",
-     "at": "2026-11-12T10:52:48Z"
+     "url": "https://github.com/LucianCeusanRo/rust-ro/actions/runs/45808666689",
+     "at": "2026-11-26T11:15:25Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -281,10 +431,28 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "Graph Update: pip in /., /examples/fixtures/py-package #1732475735",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/safevibe/actions/runs/45808811187",
+     "at": "2026-11-26T11:16:08Z"
+    },
+    {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/safevibe/actions/runs/45808803007",
+     "at": "2026-11-26T11:16:49Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/safevibe/actions/runs/45808669990",
+     "at": "2026-11-26T11:13:59Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/safevibe/actions/runs/43205549595",
-     "at": "2026-11-12T11:02:15Z"
+     "url": "https://github.com/LucianCeusanRo/safevibe/actions/runs/45808670049",
+     "at": "2026-11-26T11:14:13Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -295,22 +463,40 @@
    "state": "ok",
    "workflows": [
     {
-     "name": "Build Windows launcher",
+     "name": "Graph Update: pip in /. #1732473917",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803478939",
-     "at": "2026-11-26T10:46:56Z"
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45808719566",
+     "at": "2026-11-26T11:14:53Z"
+    },
+    {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45808708097",
+     "at": "2026-11-26T11:15:04Z"
     },
     {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803474598",
-     "at": "2026-11-26T10:43:49Z"
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45808675032",
+     "at": "2026-11-26T11:17:42Z"
     },
     {
      "name": "pages build and deployment",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803473797",
-     "at": "2026-11-26T10:40:45Z"
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45808673784",
+     "at": "2026-11-26T11:14:21Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45808674895",
+     "at": "2026-11-26T11:14:01Z"
+    },
+    {
+     "name": "Build Windows launcher",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803478939",
+     "at": "2026-11-26T10:46:56Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -321,10 +507,22 @@
    "state": "ok",
    "workflows": [
     {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/sts-grila/actions/runs/45808834686",
+     "at": "2026-11-26T11:16:46Z"
+    },
+    {
      "name": "CI",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/sts-grila/actions/runs/43197019012",
-     "at": "2026-11-12T10:04:15Z"
+     "url": "https://github.com/LucianCeusanRo/sts-grila/actions/runs/45808679234",
+     "at": "2026-11-26T11:14:08Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/sts-grila/actions/runs/45808679121",
+     "at": "2026-11-26T11:14:16Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
@@ -332,9 +530,34 @@
   {
    "repo": "zbir-cliping",
    "url": "https://github.com/LucianCeusanRo/zbir-cliping",
-   "state": "none",
-   "workflows": [],
-   "since": "2026-11-26T11:08:18Z"
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "Graph Update: pip in /. #1732474990",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/zbir-cliping/actions/runs/45808760298",
+     "at": "2026-11-26T11:15:04Z"
+    },
+    {
+     "name": "CodeQL Setup",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/zbir-cliping/actions/runs/45808749729",
+     "at": "2026-11-26T11:15:20Z"
+    },
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/zbir-cliping/actions/runs/45808682125",
+     "at": "2026-11-26T11:16:34Z"
+    },
+    {
+     "name": "Quality",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/zbir-cliping/actions/runs/45808682021",
+     "at": "2026-11-26T11:14:07Z"
+    }
+   ],
+   "since": "2026-11-26T11:19:37Z"
   }
  ]
 }
