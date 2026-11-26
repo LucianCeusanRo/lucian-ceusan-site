@@ -79,6 +79,9 @@ def repo_ci(repo: dict) -> dict:
     for r in runs.get("workflow_runs", []):
         if r.get("status") != "completed" or r.get("conclusion") in ("cancelled", "skipped"):
             continue
+        # GitHub's own dependency-graph jobs are noise here; keep CodeQL
+        if r.get("event") == "dynamic" and not str(r.get("name", "")).startswith("CodeQL"):
+            continue
         latest.setdefault(r["workflow_id"], r)
     wfs = [{"name": r["name"], "conclusion": r["conclusion"], "url": r["html_url"], "at": r.get("updated_at")}
            for r in latest.values()]
