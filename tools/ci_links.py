@@ -22,6 +22,10 @@ REQUIRED = [
     "llms.txt",
     "vercel.json",
     "og.png",
+    "status.html",
+    "status.js",
+    "status.json",
+    "tools/status_targets.json",
 ]
 
 
@@ -52,7 +56,9 @@ def main() -> int:
         if rel in OPTIONAL_LOCAL and not resolve(url).exists():
             continue
         checked += 1
-        if not resolve(url).exists():
+        target = resolve(url)
+        # vercel.json has cleanUrls: /status is served from status.html
+        if not target.exists() and not target.with_name(target.name + ".html").exists():
             missing.append(url)
     for rel in REQUIRED:
         if not (ROOT / rel).exists():

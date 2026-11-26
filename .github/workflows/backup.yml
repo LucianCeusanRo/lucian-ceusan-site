@@ -1,0 +1,37 @@
+name: Backup repos
+
+# Weekly: git bundle (full history, all branches/tags) of every public repo,
+# kept 90 days as a workflow artifact. Free on public repos. Read-only on the repos.
+on:
+  schedule:
+    - cron: "41 2 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Bundle every public repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          mkdir -p bundles && cd bundles
+          gh api "/users/$OWNER/repos?type=owner&per_page=100" --jq '.[] | select(.private|not) | .name' > repos.txt
+          while read -r r; do
+            git clone -q --mirror "https://github.com/$OWNER/$r.git" "$r.git"
+            git -C "$r.git" bundle create "../$r.bundle" --all
+            git -C "$r.git" bundle verify -q "../$r.bundle"
+            rm -rf "$r.git"
+          done < repos.txt
+          sha256sum *.bundle > SHA256SUMS
+          ls -lh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repo-bundles-${{ github.run_number }}
+          path: bundles/
+          retention-days: 90

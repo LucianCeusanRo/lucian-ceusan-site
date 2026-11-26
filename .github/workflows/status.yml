@@ -1,0 +1,54 @@
+name: Status monitor
+
+# Every 30 min: ping all live demos + read CI of all public repos, publish
+# status.json on the `status-data` branch (the site reads it), and open/close
+# "status-alert" issues. Free on public repos. Never fails because a demo is down.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # push status.json to the status-data branch only
+  issues: write     # open/close alert issues
+  actions: read     # read CI runs
+
+concurrency:
+  group: status-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: status-data
+          path: data
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check demos and CI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALERT_REPO: ${{ github.repository }}
+        run: python tools/status_check.py data/status.json new.json
+      - name: Publish (only on change, or a heartbeat every 3 h)
+        run: |
+          cd data
+          strip() { python3 -c "import json,sys;d=json.load(open(sys.argv[1]));d.pop('updated',None);[(x.pop('ms',None),x.pop('code',None)) for x in d.get('demos',[])];print(json.dumps(d,sort_keys=True))" "$1"; }
+          changed=1
+          if [ -f status.json ] && [ "$(strip status.json)" = "$(strip ../new.json)" ]; then changed=0; fi
+          age=$(( $(date +%s) - $(git log -1 --format=%ct) ))
+          if [ "$changed" = 1 ] || [ "$age" -gt 10800 ]; then
+            cp ../new.json status.json
+            git config user.name "status-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add status.json
+            git commit -q -m "status: $(python3 -c "import json;d=json.load(open('status.json'));print(d['overall'], d['red'], 'red')")"
+            git push -q origin HEAD:status-data
+          else
+            echo "no change"
+          fi

@@ -1,0 +1,340 @@
+{
+ "updated": "2026-11-26T11:08:18Z",
+ "overall": "ok",
+ "red": 0,
+ "demos": [
+  {
+   "id": "site",
+   "name": "Portfolio site",
+   "url": "https://lucian-ceusan.vercel.app/",
+   "repo": "lucian-ceusan-site",
+   "state": "up",
+   "code": 200,
+   "ms": 116,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "rust-ro",
+   "name": "Rust RO",
+   "url": "https://rust-ro.vercel.app/",
+   "repo": "rust-ro",
+   "state": "up",
+   "code": 200,
+   "ms": 83,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "sts-grila",
+   "name": "STS Grilă",
+   "url": "https://sts-grila-ceusan3.netlify.app/",
+   "repo": "sts-grila",
+   "state": "up",
+   "code": 200,
+   "ms": 158,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "lspilot",
+   "name": "LSPilot demo",
+   "url": "https://lspilot-demo.vercel.app/",
+   "repo": "lspilot",
+   "state": "up",
+   "code": 200,
+   "ms": 102,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "safevibe",
+   "name": "SafeVibe demo",
+   "url": "https://safevibe-demo.vercel.app/",
+   "repo": "safevibe",
+   "state": "up",
+   "code": 200,
+   "ms": 108,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "rootfold",
+   "name": "Rootfold demo",
+   "url": "https://rootfold-demo.vercel.app/",
+   "repo": "rootfold",
+   "state": "up",
+   "code": 200,
+   "ms": 45,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "moodle-kb",
+   "name": "Moodle KB demo",
+   "url": "https://moodle-kb-demo.vercel.app/",
+   "repo": "moodle-kb",
+   "state": "up",
+   "code": 200,
+   "ms": 37,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "ecom-radar",
+   "name": "Ecom Radar demo",
+   "url": "https://ecom-radar-demo.vercel.app/",
+   "repo": "ecom-radar",
+   "state": "up",
+   "code": 200,
+   "ms": 408,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "betting-tips",
+   "name": "Betting Tips demo",
+   "url": "https://betting-tips-demo.vercel.app/",
+   "repo": "betting-tips-dashboard",
+   "state": "up",
+   "code": 200,
+   "ms": 70,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "ccna-labs",
+   "name": "CCNA Labs demo",
+   "url": "https://ccna-labs-demo.vercel.app/",
+   "repo": "ccna-packet-tracer-labs",
+   "state": "up",
+   "code": 200,
+   "ms": 113,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "pc-pret",
+   "name": "PC Preț",
+   "url": "https://lucianceusanro.github.io/pc-pret/",
+   "repo": "pc-pret",
+   "state": "up",
+   "code": 200,
+   "ms": 64,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "stream-clipper",
+   "name": "Stream Clipper page",
+   "url": "https://lucianceusanro.github.io/stream-clipper/",
+   "repo": "stream-clipper",
+   "state": "up",
+   "code": 200,
+   "ms": 64,
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "id": "catalinasova",
+   "name": "Client site (Cătălina Sova)",
+   "url": "https://catalinasova.netlify.app/",
+   "repo": null,
+   "state": "up",
+   "code": 200,
+   "ms": 64,
+   "since": "2026-11-26T11:08:18Z"
+  }
+ ],
+ "ci": [
+  {
+   "repo": "betting-tips-dashboard",
+   "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/betting-tips-dashboard/actions/runs/43197028099",
+     "at": "2026-11-12T10:04:21Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "ccna-packet-tracer-labs",
+   "url": "https://github.com/LucianCeusanRo/ccna-packet-tracer-labs",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ccna-packet-tracer-labs/actions/runs/43205674155",
+     "at": "2026-11-12T11:02:52Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "ecom-radar",
+   "url": "https://github.com/LucianCeusanRo/ecom-radar",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/ecom-radar/actions/runs/43205748302",
+     "at": "2026-11-12T11:03:22Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "facturabot",
+   "url": "https://github.com/LucianCeusanRo/facturabot",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/facturabot/actions/runs/45802908289",
+     "at": "2026-11-26T10:37:39Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "lspilot",
+   "url": "https://github.com/LucianCeusanRo/lspilot",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lspilot/actions/runs/43205672495",
+     "at": "2026-11-12T11:03:00Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "lucian-ceusan-site",
+   "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45783286485",
+     "at": "2026-11-26T08:27:27Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "moodle-kb",
+   "url": "https://github.com/LucianCeusanRo/moodle-kb",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/moodle-kb/actions/runs/44591191192",
+     "at": "2026-11-19T18:45:45Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "pc-pret",
+   "url": "https://github.com/LucianCeusanRo/pc-pret",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "Snapshot and deploy",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/pc-pret/actions/runs/45761793164",
+     "at": "2026-11-26T05:41:51Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "rootfold",
+   "url": "https://github.com/LucianCeusanRo/rootfold",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rootfold/actions/runs/43197013350",
+     "at": "2026-11-12T10:04:28Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "rust-ro",
+   "url": "https://github.com/LucianCeusanRo/rust-ro",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/rust-ro/actions/runs/43204054050",
+     "at": "2026-11-12T10:52:48Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "safevibe",
+   "url": "https://github.com/LucianCeusanRo/safevibe",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/safevibe/actions/runs/43205549595",
+     "at": "2026-11-12T11:02:15Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "stream-clipper",
+   "url": "https://github.com/LucianCeusanRo/stream-clipper",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "Build Windows launcher",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803478939",
+     "at": "2026-11-26T10:46:56Z"
+    },
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803474598",
+     "at": "2026-11-26T10:43:49Z"
+    },
+    {
+     "name": "pages build and deployment",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/stream-clipper/actions/runs/45803473797",
+     "at": "2026-11-26T10:40:45Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "sts-grila",
+   "url": "https://github.com/LucianCeusanRo/sts-grila",
+   "state": "ok",
+   "workflows": [
+    {
+     "name": "CI",
+     "conclusion": "success",
+     "url": "https://github.com/LucianCeusanRo/sts-grila/actions/runs/43197019012",
+     "at": "2026-11-12T10:04:15Z"
+    }
+   ],
+   "since": "2026-11-26T11:08:18Z"
+  },
+  {
+   "repo": "zbir-cliping",
+   "url": "https://github.com/LucianCeusanRo/zbir-cliping",
+   "state": "none",
+   "workflows": [],
+   "since": "2026-11-26T11:08:18Z"
+  }
+ ]
+}

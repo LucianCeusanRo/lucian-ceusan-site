@@ -1,0 +1,19 @@
+{
+  "owner": "LucianCeusanRo",
+  "skip_repos": ["LucianCeusanRo"],
+  "demos": [
+    {"id": "site", "name": "Portfolio site", "url": "https://lucian-ceusan.vercel.app/", "repo": "lucian-ceusan-site"},
+    {"id": "rust-ro", "name": "Rust RO", "url": "https://rust-ro.vercel.app/", "repo": "rust-ro"},
+    {"id": "sts-grila", "name": "STS Grilă", "url": "https://sts-grila-ceusan3.netlify.app/", "repo": "sts-grila"},
+    {"id": "lspilot", "name": "LSPilot demo", "url": "https://lspilot-demo.vercel.app/", "repo": "lspilot"},
+    {"id": "safevibe", "name": "SafeVibe demo", "url": "https://safevibe-demo.vercel.app/", "repo": "safevibe"},
+    {"id": "rootfold", "name": "Rootfold demo", "url": "https://rootfold-demo.vercel.app/", "repo": "rootfold"},
+    {"id": "moodle-kb", "name": "Moodle KB demo", "url": "https://moodle-kb-demo.vercel.app/", "repo": "moodle-kb"},
+    {"id": "ecom-radar", "name": "Ecom Radar demo", "url": "https://ecom-radar-demo.vercel.app/", "repo": "ecom-radar"},
+    {"id": "betting-tips", "name": "Betting Tips demo", "url": "https://betting-tips-demo.vercel.app/", "repo": "betting-tips-dashboard"},
+    {"id": "ccna-labs", "name": "CCNA Labs demo", "url": "https://ccna-labs-demo.vercel.app/", "repo": "ccna-packet-tracer-labs"},
+    {"id": "pc-pret", "name": "PC Preț", "url": "https://lucianceusanro.github.io/pc-pret/", "repo": "pc-pret"},
+    {"id": "stream-clipper", "name": "Stream Clipper page", "url": "https://lucianceusanro.github.io/stream-clipper/", "repo": "stream-clipper"},
+    {"id": "catalinasova", "name": "Client site (Cătălina Sova)", "url": "https://catalinasova.netlify.app/", "repo": null}
+  ]
+}
