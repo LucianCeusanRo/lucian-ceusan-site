@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:48:22Z",
+ "updated": "2026-11-27T18:45:16Z",
  "overall": "ok",
  "red": 0,
  "demos": [
@@ -10,7 +10,7 @@
    "repo": "lucian-ceusan-site",
    "state": "up",
    "code": 200,
-   "ms": 150,
+   "ms": 68,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -20,7 +20,7 @@
    "repo": "rust-ro",
    "state": "up",
    "code": 200,
-   "ms": 90,
+   "ms": 110,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -30,7 +30,7 @@
    "repo": "sts-grila",
    "state": "up",
    "code": 200,
-   "ms": 428,
+   "ms": 340,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -40,7 +40,7 @@
    "repo": "lspilot",
    "state": "up",
    "code": 200,
-   "ms": 230,
+   "ms": 104,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -50,7 +50,7 @@
    "repo": "safevibe",
    "state": "up",
    "code": 200,
-   "ms": 98,
+   "ms": 121,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -60,7 +60,7 @@
    "repo": "rootfold",
    "state": "up",
    "code": 200,
-   "ms": 169,
+   "ms": 108,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -70,7 +70,7 @@
    "repo": "moodle-kb",
    "state": "up",
    "code": 200,
-   "ms": 134,
+   "ms": 78,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -80,7 +80,7 @@
    "repo": "ecom-radar",
    "state": "up",
    "code": 200,
-   "ms": 135,
+   "ms": 66,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -90,7 +90,7 @@
    "repo": "betting-tips-dashboard",
    "state": "up",
    "code": 200,
-   "ms": 68,
+   "ms": 108,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -100,7 +100,7 @@
    "repo": "ccna-packet-tracer-labs",
    "state": "up",
    "code": 200,
-   "ms": 92,
+   "ms": 72,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -110,7 +110,7 @@
    "repo": "pc-pret",
    "state": "up",
    "code": 200,
-   "ms": 162,
+   "ms": 64,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -120,7 +120,7 @@
    "repo": "stream-clipper",
    "state": "up",
    "code": 200,
-   "ms": 154,
+   "ms": 76,
    "since": "2026-11-26T11:08:18Z"
   },
   {
@@ -130,7 +130,7 @@
    "repo": null,
    "state": "up",
    "code": 200,
-   "ms": 238,
+   "ms": 409,
    "since": "2026-11-26T11:08:18Z"
   }
  ],
@@ -273,8 +273,8 @@
     {
      "name": "Status monitor",
      "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/46034610591",
-     "at": "2026-11-27T16:33:45Z"
+     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/46044662465",
+     "at": "2026-11-27T17:48:38Z"
     },
     {
      "name": "CodeQL",
@@ -293,12 +293,6 @@
      "conclusion": "success",
      "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45809874583",
      "at": "2026-11-26T11:21:55Z"
-    },
-    {
-     "name": "Backup repos",
-     "conclusion": "success",
-     "url": "https://github.com/LucianCeusanRo/lucian-ceusan-site/actions/runs/45808241259",
-     "at": "2026-11-26T11:11:22Z"
     }
    ],
    "since": "2026-11-26T11:08:18Z"
